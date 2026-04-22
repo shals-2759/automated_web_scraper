@@ -1,0 +1,26 @@
+# --- AI & Credentials ---
+.env
+
+# --- Python Environment ---
+venv/
+venv312/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- VS Code & IDEs ---
+.vscode/
+.idea/
+
+# --- Project Specifics ---
+# Ignore the playwright browser binaries if they are local
+.playwright/
+
+# Ignore any scraped results you save locally
+results.json
+scraped_data.csv
+extracted_data.csv
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
