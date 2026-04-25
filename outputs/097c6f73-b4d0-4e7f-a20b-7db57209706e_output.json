@@ -1,0 +1,122 @@
+{
+  "url": "https://www.geeksforgeeks.org/blogs/what-is-a-website/",
+  "fields": [
+    "types of website",
+    "advantages of each website",
+    "disadvantages of each website"
+  ],
+  "model": "gemini-3-flash-preview",
+  "pages_scraped": 1,
+  "total_items": 10,
+  "pages": [
+    {
+      "url": "https://www.geeksforgeeks.org/blogs/what-is-a-website/",
+      "page_num": 1,
+      "items": [
+        {
+          "types of website": "Static Websites",
+          "advantages of each website": "Static websites offer fast loading times because they involve minimal interaction with the server. They are also cost-effective since they do not require advanced server-side processing.",
+          "disadvantages of each website": "These websites do not allow for database interaction and are generally limited to simple, unchanging content such as personal portfolios or company brochure sites."
+        },
+        {
+          "types of website": "Dynamic Websites",
+          "advantages of each website": "Dynamic websites enable real-time updates because pages are built based on user requests. They support database interaction and are easier to update globally without the need to modify individual pages.",
+          "disadvantages of each website": "These websites are typically slower than static websites due to the overhead of server-side processing."
+        },
+        {
+          "types of website": "Blogs",
+          "advantages of each website": "Blogs provide a platform for individuals or small groups to share content on topics like fashion, travel, or fitness, and they serve as a popular way to earn money online through professional blogging.",
+          "disadvantages of each website": null
+        },
+        {
+          "types of website": "E-commerce",
+          "advantages of each website": "E-commerce websites function as online shops that allow users to purchase products and make online payments for various goods and services.",
+          "disadvantages of each website": null
+        },
+        {
+          "types of website": "Portfolio",
+          "advantages of each website": "Portfolio websites serve as an extension of a freelancer's resume, providing a convenient way for potential clients to view work and allowing the freelancer to expand on their skills or services.",
+          "disadvantages of each website": null
+        },
+        {
+          "types of website": "Brochure",
+          "advantages of each website": "Brochure websites are primarily used by small businesses to act as digital business cards, displaying contact details and advertising services with a limited number of pages.",
+          "disadvantages of each website": null
+        },
+        {
+          "types of website": "News and Magazines",
+          "advantages of each website": "News and magazine websites are designed to keep readers up-to-date with current affairs and provide entertainment through specialized articles.",
+          "disadvantages of each website": null
+        },
+        {
+          "types of website": "Social Media",
+          "advantages of each website": "Social media websites allow users to share their thoughts, images, videos, and other digital components with a community of other users.",
+          "disadvantages of each website": null
+        },
+        {
+          "types of website": "Educational",
+          "advantages of each website": "Educational websites are designed to display information through various media formats such as audio, videos, or images to help users learn.",
+          "disadvantages of each website": null
+        },
+        {
+          "types of website": "Portal",
+          "advantages of each website": "Portal websites are used internally by schools, institutes, or businesses and include login systems that allow students to access information or employees to check emails and alerts.",
+          "disadvantages of each website": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "types of website": "Static Websites",
+      "advantages of each website": "Static websites offer fast loading times because they involve minimal interaction with the server. They are also cost-effective since they do not require advanced server-side processing.",
+      "disadvantages of each website": "These websites do not allow for database interaction and are generally limited to simple, unchanging content such as personal portfolios or company brochure sites."
+    },
+    {
+      "types of website": "Dynamic Websites",
+      "advantages of each website": "Dynamic websites enable real-time updates because pages are built based on user requests. They support database interaction and are easier to update globally without the need to modify individual pages.",
+      "disadvantages of each website": "These websites are typically slower than static websites due to the overhead of server-side processing."
+    },
+    {
+      "types of website": "Blogs",
+      "advantages of each website": "Blogs provide a platform for individuals or small groups to share content on topics like fashion, travel, or fitness, and they serve as a popular way to earn money online through professional blogging.",
+      "disadvantages of each website": null
+    },
+    {
+      "types of website": "E-commerce",
+      "advantages of each website": "E-commerce websites function as online shops that allow users to purchase products and make online payments for various goods and services.",
+      "disadvantages of each website": null
+    },
+    {
+      "types of website": "Portfolio",
+      "advantages of each website": "Portfolio websites serve as an extension of a freelancer's resume, providing a convenient way for potential clients to view work and allowing the freelancer to expand on their skills or services.",
+      "disadvantages of each website": null
+    },
+    {
+      "types of website": "Brochure",
+      "advantages of each website": "Brochure websites are primarily used by small businesses to act as digital business cards, displaying contact details and advertising services with a limited number of pages.",
+      "disadvantages of each website": null
+    },
+    {
+      "types of website": "News and Magazines",
+      "advantages of each website": "News and magazine websites are designed to keep readers up-to-date with current affairs and provide entertainment through specialized articles.",
+      "disadvantages of each website": null
+    },
+    {
+      "types of website": "Social Media",
+      "advantages of each website": "Social media websites allow users to share their thoughts, images, videos, and other digital components with a community of other users.",
+      "disadvantages of each website": null
+    },
+    {
+      "types of website": "Educational",
+      "advantages of each website": "Educational websites are designed to display information through various media formats such as audio, videos, or images to help users learn.",
+      "disadvantages of each website": null
+    },
+    {
+      "types of website": "Portal",
+      "advantages of each website": "Portal websites are used internally by schools, institutes, or businesses and include login systems that allow students to access information or employees to check emails and alerts.",
+      "disadvantages of each website": null
+    }
+  ],
+  "summary": "The collected data compares static and dynamic websites, highlighting the distinct trade-offs between performance and functionality. Static websites are noted for their high speed and cost-effectiveness, though they are limited to simple content and lack database interaction. Conversely, dynamic websites support real-time updates and complex database integration, making them easier to manage globally despite slower server-side processing. Ultimately, the choice between these formats depends on whether a project requires high-speed simplicity or interactive, data-driven capabilities."
+}
