@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Web Scraper</title>
+<style>
+  :root {
+    --bg:      #0a0a0f;
+    --surface: #12121f;
+    --border:  #1e1e3a;
+    --green:   #00ff88;
+    --teal:    #0d9488;
+    --red:     #ff4455;
+    --amber:   #ffaa00;
+    --text:    #e8e8f0;
+    --muted:   #666688;
+    --navy:    #1b2a4a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+  }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    width: 260px;
+    min-height: 100vh;
+    background: #0d0d1a;
+    border-right: 1px solid var(--border);
+    padding: 24px 16px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sidebar-brand {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--green);
+    letter-spacing: -0.5px;
+  }
+
+  .sidebar-brand span { color: var(--muted); font-weight: 400; font-size: 0.75rem; display: block; margin-top: 2px; }
+
+  .sidebar-section { border-top: 1px solid var(--border); padding-top: 16px; }
+
+  .sidebar-label {
+    font-size: 0.7rem;
+    font-family: 'Courier New', monospace;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .info-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--green);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 0.78rem;
+    color: #9999bb;
+    line-height: 1.6;
+  }
+
+  .warn-box {
+    background: #1f1a0d;
+    border: 1px solid var(--amber);
+    border-left: 3px solid var(--amber);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 0.78rem;
+    color: #ffcc44;
+    line-height: 1.6;
+  }
+
+  .stack-badge {
+    display: inline-block;
+    background: var(--border);
+    color: var(--green);
+    font-size: 0.68rem;
+    font-family: 'Courier New', monospace;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: 2px;
+  }
+
+  /* ── Main ── */
+  .main {
+    flex: 1;
+    padding: 32px 40px;
+    max-width: 960px;
+  }
+
+  h1 {
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    color: var(--green);
+    letter-spacing: -1px;
+  }
+
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-family: 'Courier New', monospace;
+    margin-top: 4px;
+    margin-bottom: 28px;
+  }
+
+  hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+
+  label {
+    display: block;
+    font-size: 0.72rem;
+    font-family: 'Courier New', monospace;
+    color: var(--muted);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 14px;
+  }
+
+  input[type="text"], input[type="password"], input[type="number"], textarea, select {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.9rem;
+    padding: 10px 12px;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.2s;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0 2px rgba(0,255,136,0.12);
+  }
+
+  textarea { resize: vertical; min-height: 90px; }
+
+  .row { display: flex; gap: 16px; }
+  .row > * { flex: 1; }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.18s;
+  }
+
+  .btn-green {
+    background: var(--green);
+    color: #0a0a0f;
+  }
+  .btn-green:hover { background: #00cc6e; box-shadow: 0 4px 20px rgba(0,255,136,.3); }
+  .btn-green:disabled { background: #0a3a22; color: var(--muted); cursor: not-allowed; }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .btn-outline:hover { border-color: var(--muted); color: var(--text); }
+
+  .btn-teal {
+    background: var(--teal);
+    color: #fff;
+  }
+  .btn-teal:hover { background: #0f766e; }
+
+  .btn-row { display: flex; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+
+  /* ── Progress / Log ── */
+  .status-bar {
+    margin-top: 20px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-family: 'Courier New', monospace;
+    display: none;
+  }
+  .status-bar.running { background: #0d1f17; border: 1px solid var(--green); color: var(--green); }
+  .status-bar.error   { background: #1f0d0d; border: 1px solid var(--red);   color: var(--red); }
+  .status-bar.done    { background: #0d1a2f; border: 1px solid var(--teal);  color: #5eead4; }
+
+  .log-box {
+    margin-top: 10px;
+    background: #080810;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.75rem;
+    color: #7aff9e;
+    max-height: 260px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    display: none;
+  }
+
+  /* ── Results ── */
+  #results { margin-top: 28px; display: none; }
+
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .metric-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+  }
+  .metric-val { font-family: 'Courier New', monospace; font-size: 1.6rem; color: var(--green); font-weight: 700; }
+  .metric-lbl { color: var(--muted); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
+
+  /* ── Document view ── */
+  .doc-view {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .doc-header {
+    background: var(--navy);
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doc-header span { font-family: 'Courier New', monospace; font-size: 0.8rem; color: #8eaed0; }
+
+  .doc-body { padding: 24px; max-height: 600px; overflow-y: auto; }
+
+  .page-section {
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--border);
+  }
+  .page-section:last-child { border-bottom: none; margin-bottom: 0; }
+
+  .page-url {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72rem;
+    color: var(--teal);
+    margin-bottom: 14px;
+    word-break: break-all;
+  }
+
+  .entry { margin-bottom: 16px; }
+
+  .field-label {
+    font-size: 0.7rem;
+    font-family: 'Courier New', monospace;
+    color: var(--green);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  .field-value {
+    font-size: 0.9rem;
+    color: var(--text);
+    line-height: 1.65;
+    background: #0d0d1a;
+    border-left: 3px solid var(--border);
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .summary-box {
+    background: #0d1a1a;
+    border: 1px solid var(--teal);
+    border-radius: 6px;
+    padding: 14px 18px;
+    font-size: 0.88rem;
+    color: #b2e8e8;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  /* ── API key note ── */
+  .key-note {
+    background: #0d1218;
+    border: 1px solid var(--teal);
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 0.8rem;
+    color: #5eead4;
+    margin-top: 10px;
+  }
+  .key-note a { color: var(--green); }
+</style>
+</head>
+<body>
+
+<!-- ── Sidebar ───────────────────────────────────────────────────── -->
+<aside class="sidebar">
+  <div>
+    <div class="sidebar-brand">
+      🕷 AI_SCRAPER
+      <span>// flask · gemini · langchain</span>
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">How it works</div>
+    <div class="info-box">
+      1. Enter your Gemini API key<br>
+      2. Enter URL + field names<br>
+      3. AI plans which pages to visit<br>
+      4. Each page extracted as paragraphs<br>
+      5. Download as PDF or JSON
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">Stack</div>
+    <div>
+      <span class="stack-badge">Flask</span>
+      <span class="stack-badge">httpx</span>
+      <span class="stack-badge">BeautifulSoup</span>
+      <span class="stack-badge">LangChain</span>
+      <span class="stack-badge">Gemini 2.0</span>
+      <span class="stack-badge">ReportLab</span>
+      <span class="stack-badge">subprocess</span>
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">Good test URLs</div>
+    <div class="info-box" style="font-family:'Courier New',monospace; font-size:0.7rem;">
+      books.toscrape.com<br>
+      quotes.toscrape.com<br>
+      news.ycombinator.com<br>
+      geeksforgeeks.org/...
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">API Key</div>
+    <div class="warn-box">
+      Your key stays in your browser session only — never stored on server.
+    </div>
+  </div>
+</aside>
+
+<!-- ── Main ──────────────────────────────────────────────────────── -->
+<main class="main">
+  <h1>🕷 AI_SCRAPER</h1>
+  <div class="subtitle">// content-aware multi-page · paragraph output · PDF export</div>
+  <hr>
+
+  <!-- API Key -->
+  <label>GEMINI API KEY <span style="color:#ff4455">*</span></label>
+  <input type="password" id="apiKey" placeholder="AIza... (get free key at aistudio.google.com)">
+  <div class="key-note">
+    Get a free key at <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com/app/apikey</a>.
+    Your key is sent only to the Gemini API and is never logged or stored by this app.
+  </div>
+
+  <hr>
+
+  <!-- URL + Items -->
+  <div class="row">
+    <div>
+      <label>TARGET URL</label>
+      <input type="text" id="url" placeholder="https://www.geeksforgeeks.org/blogs/what-is-a-website/">
+    </div>
+    <div style="max-width:120px">
+      <label>MAX ITEMS</label>
+      <input type="number" id="maxItems" value="10" min="1" max="200">
+    </div>
+    <div style="max-width:120px">
+      <label>MAX PAGES</label>
+      <input type="number" id="maxPages" value="5" min="1" max="20">
+    </div>
+  </div>
+
+  <!-- Fields -->
+  <label>FIELDS TO EXTRACT <small style="color:var(--muted)">(one per line)</small></label>
+  <textarea id="fields" placeholder="advantages of each website&#10;disadvantages of each website&#10;use cases"></textarea>
+
+  <!-- Extra instructions -->
+  <label>EXTRA AI INSTRUCTIONS <small style="color:var(--muted)">(optional)</small></label>
+  <textarea id="extra" style="min-height:60px"
+    placeholder="Write each field as a detailed paragraph, not bullet points..."></textarea>
+
+  <!-- Buttons -->
+  <div class="btn-row">
+    <button class="btn btn-green" id="scrapeBtn" onclick="startScrape()">▶ SCRAPE</button>
+    <button class="btn btn-outline" onclick="clearAll()">✕ CLEAR</button>
+  </div>
+
+  <!-- Status -->
+  <div class="status-bar" id="statusBar"></div>
+  <pre class="log-box" id="logBox"></pre>
+
+  <!-- Results -->
+  <div id="results">
+    <hr>
+    <h2 style="font-family:'Courier New',monospace; color:var(--teal); font-size:1rem; margin-bottom:16px;">
+      📄 Extracted Content
+    </h2>
+
+    <div class="metrics" id="metrics"></div>
+
+    <div class="summary-box" id="summaryBox" style="display:none"></div>
+
+    <div class="doc-view">
+      <div class="doc-header">
+        <span>DOCUMENT VIEW — paragraph format</span>
+        <div style="display:flex; gap:8px;">
+          <button class="btn btn-teal" id="dlPdf" onclick="downloadPdf()">⬇ PDF</button>
+          <button class="btn btn-outline" id="dlJson" onclick="downloadJson()">⬇ JSON</button>
+        </div>
+      </div>
+      <div class="doc-body" id="docBody"></div>
+    </div>
+  </div>
+</main>
+
+<script>
+let currentJobId = null;
+let pollTimer    = null;
+
+function startScrape() {
+  const apiKey   = document.getElementById('apiKey').value.trim();
+  const url      = document.getElementById('url').value.trim();
+  const fields   = document.getElementById('fields').value.trim();
+  const maxItems = document.getElementById('maxItems').value;
+  const maxPages = document.getElementById('maxPages').value;
+  const extra    = document.getElementById('extra').value.trim();
+
+  if (!apiKey) { alert('Please enter your Gemini API key.'); return; }
+  if (!url)    { alert('Please enter a target URL.'); return; }
+  if (!fields) { alert('Please enter at least one field to extract.'); return; }
+
+  document.getElementById('scrapeBtn').disabled = true;
+  document.getElementById('results').style.display = 'none';
+  setStatus('running', '⏳ Starting scraper ...');
+  showLog('');
+
+  fetch('/api/scrape', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ api_key: apiKey, url, fields, max_items: maxItems,
+                           max_pages: maxPages, extra }),
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.error) { setStatus('error', '✗ ' + data.error); return; }
+    currentJobId = data.job_id;
+    pollTimer = setInterval(pollStatus, 1200);
+  })
+  .catch(err => { setStatus('error', '✗ ' + err); });
+}
+
+function pollStatus() {
+  if (!currentJobId) return;
+  fetch('/api/status/' + currentJobId)
+    .then(r => r.json())
+    .then(data => {
+      showLog(data.log || '');
+      if (data.status === 'done') {
+        clearInterval(pollTimer);
+        setStatus('done', '✓ Scraping complete!');
+        document.getElementById('scrapeBtn').disabled = false;
+        renderResults(data.result);
+      } else if (data.status === 'error') {
+        clearInterval(pollTimer);
+        setStatus('error', '✗ Error — see log above');
+        document.getElementById('scrapeBtn').disabled = false;
+      } else {
+        const lastLine = (data.log || '').split('\n').filter(Boolean).pop() || '';
+        setStatus('running', '⏳ ' + lastLine);
+      }
+    });
+}
+
+function renderResults(result) {
+  if (!result) return;
+  const pages = result.pages || [];
+  const totalItems = result.total_items || 0;
+
+  // Metrics
+  document.getElementById('metrics').innerHTML = `
+    <div class="metric-card"><div class="metric-val">${totalItems}</div><div class="metric-lbl">Items Extracted</div></div>
+    <div class="metric-card"><div class="metric-val">${result.pages_scraped || '?'}</div><div class="metric-lbl">Pages Scraped</div></div>
+    <div class="metric-card"><div class="metric-val">${(result.fields || []).length}</div><div class="metric-lbl">Fields</div></div>
+    <div class="metric-card"><div class="metric-val">${result.model || 'Gemini'}</div><div class="metric-lbl">Model</div></div>
+  `;
+
+  // Summary
+  if (result.summary) {
+    const sb = document.getElementById('summaryBox');
+    sb.textContent = result.summary;
+    sb.style.display = 'block';
+  }
+
+  // Document body -- paragraph view
+  const body = document.getElementById('docBody');
+  body.innerHTML = '';
+
+  pages.forEach((pg, pgIdx) => {
+    const sec = document.createElement('div');
+    sec.className = 'page-section';
+
+    const urlDiv = document.createElement('div');
+    urlDiv.className = 'page-url';
+    urlDiv.textContent = `📄 Page ${pgIdx + 1}: ${pg.url}`;
+    sec.appendChild(urlDiv);
+
+    (pg.items || []).forEach((item, itemIdx) => {
+      if ((pg.items || []).length > 1) {
+        const entryNum = document.createElement('div');
+        entryNum.style.cssText = 'font-family:Courier New,monospace;font-size:0.78rem;color:#00ff88;margin-bottom:8px;margin-top:12px;';
+        entryNum.textContent = `Entry ${itemIdx + 1}`;
+        sec.appendChild(entryNum);
+      }
+
+      Object.entries(item).forEach(([field, value]) => {
+        if (value === null || value === undefined || value === '') return;
+        const entry = document.createElement('div');
+        entry.className = 'entry';
+        entry.innerHTML = `
+          <div class="field-label">${escHtml(field)}</div>
+          <div class="field-value">${escHtml(String(value))}</div>
+        `;
+        sec.appendChild(entry);
+      });
+    });
+
+    body.appendChild(sec);
+  });
+
+  document.getElementById('results').style.display = 'block';
+}
+
+function downloadPdf() {
+  if (!currentJobId) return;
+  window.location.href = '/api/download/' + currentJobId;
+}
+
+function downloadJson() {
+  if (!currentJobId) return;
+  window.location.href = '/api/download_json/' + currentJobId;
+}
+
+function clearAll() {
+  clearInterval(pollTimer);
+  currentJobId = null;
+  document.getElementById('scrapeBtn').disabled = false;
+  document.getElementById('statusBar').style.display = 'none';
+  document.getElementById('logBox').style.display = 'none';
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('url').value = '';
+  document.getElementById('fields').value = '';
+  document.getElementById('extra').value = '';
+}
+
+function setStatus(type, msg) {
+  const bar = document.getElementById('statusBar');
+  bar.className = 'status-bar ' + type;
+  bar.textContent = msg;
+  bar.style.display = 'block';
+}
+
+function showLog(text) {
+  const box = document.getElementById('logBox');
+  box.style.display = 'block';
+  box.textContent = text;
+  box.scrollTop = box.scrollHeight;
+}
+
+function escHtml(t) {
+  return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+</script>
+</body>
+</html>
