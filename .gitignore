@@ -1,26 +1,54 @@
-# --- AI & Credentials ---
+# ── API Keys & Environment ─────────────────────────────────────────────
 .env
-
-# --- Python Environment ---
-venv/
-venv312/
+.env.local
+.env.production
+ 
+# ── Python ────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
-*$py.class
-
-# --- VS Code & IDEs ---
-.vscode/
-.idea/
-
-# --- Project Specifics ---
-# Ignore the playwright browser binaries if they are local
-.playwright/
-
-# Ignore any scraped results you save locally
-results.json
-scraped_data.csv
-extracted_data.csv
-
-# --- System Files ---
+*.pyo
+*.pyd
+.Python
+*.pyc
+ 
+# ── Virtual Environment ───────────────────────────────────────────────
+venv/
+venv312/
+env/
+.venv/
+ENV/
+ 
+# ── Scraper Outputs (temp files & generated reports) ──────────────────
+outputs/
+*.pdf
+*.csv
+*_output.json
+payload_*.json
+ 
+# ── Flask / App ───────────────────────────────────────────────────────
+instance/
+flask_session/
+ 
+ 
+# ── OS Files ──────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
+ 
+# ── IDE & Editor ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+ 
+# ── Logs ──────────────────────────────────────────────────────────────
+*.log
+logs/
+ 
+# ── Temp Files ────────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+ 
+# ── Node (if you have any JS tooling) ─────────────────────────────────
+node_modules/
