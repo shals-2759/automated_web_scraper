@@ -41,7 +41,6 @@ BLOCKED_DOMAINS = {
     "twitter.com":   "Twitter/X requires login.",
     "x.com":         "Twitter/X requires login.",
     "google.com":    "Google blocks automated scraping.",
-    "amazon.com":    "Amazon has aggressive bot-detection.",
 }
 
 
