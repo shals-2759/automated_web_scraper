@@ -1,0 +1,1001 @@
+customer_id,customer_name,segment,region,industry,employee_size,acquisition_channel,subscription_type,customer_status,acquisition_date
+C0001,Customer_1,Mid-Market,North,Retail,2303,Online,Monthly,Active,2024-02-17
+C0002,Customer_2,Enterprise,North,Manufacturing,3506,Online,Monthly,Active,2021-03-23
+C0003,Customer_3,Enterprise,North,Manufacturing,1678,Direct Sales,Yearly,Inactive,2021-03-27
+C0004,Customer_4,SMB,East,Retail,1357,Direct Sales,Quarterly,Inactive,2021-07-23
+C0005,Customer_5,Enterprise,South,Healthcare,887,Online,Quarterly,Active,2022-01-05
+C0006,Customer_6,SMB,East,Retail,3813,Direct Sales,Monthly,Inactive,2020-06-10
+C0007,Customer_7,Mid-Market,East,Manufacturing,3012,Direct Sales,Monthly,Active,2020-04-03
+C0008,Customer_8,Mid-Market,South,Healthcare,703,Online,Monthly,Inactive,2021-07-23
+C0009,Customer_9,SMB,East,Finance,3082,Partner,Monthly,Inactive,2023-12-08
+C0010,Customer_10,Mid-Market,North,Manufacturing,1451,Direct Sales,Yearly,Active,2020-11-30
+C0011,Customer_11,SMB,West,Healthcare,4612,Online,Yearly,Inactive,2024-09-22
+C0012,Customer_12,Enterprise,South,Retail,2634,Partner,Quarterly,Active,2021-03-08
+C0013,Customer_13,Mid-Market,East,Finance,4139,Partner,Yearly,Inactive,2020-10-19
+C0014,Customer_14,SMB,South,Finance,4648,Direct Sales,Quarterly,Inactive,2025-01-12
+C0015,Customer_15,Mid-Market,West,Healthcare,1846,Online,Yearly,Inactive,2020-07-05
+C0016,Customer_16,Enterprise,North,Finance,1360,Direct Sales,Quarterly,Active,2022-02-27
+C0017,Customer_17,SMB,West,Manufacturing,2109,Direct Sales,Monthly,Active,2023-10-28
+C0018,Customer_18,Mid-Market,East,Healthcare,963,Partner,Quarterly,Active,2022-07-18
+C0019,Customer_19,Enterprise,East,Manufacturing,1513,Direct Sales,Monthly,Inactive,2024-09-19
+C0020,Customer_20,Mid-Market,South,Finance,3113,Online,Yearly,Active,2023-05-11
+C0021,Customer_21,SMB,West,Retail,966,Partner,Quarterly,Active,2020-04-28
+C0022,Customer_22,Enterprise,North,Retail,4031,Online,Yearly,Active,2020-09-19
+C0023,Customer_23,Mid-Market,West,Manufacturing,1402,Partner,Yearly,Inactive,2025-05-29
+C0024,Customer_24,Enterprise,South,Healthcare,3318,Direct Sales,Yearly,Inactive,2022-06-16
+C0025,Customer_25,Mid-Market,West,Retail,2080,Online,Monthly,Inactive,2020-02-13
+C0026,Customer_26,Mid-Market,South,Manufacturing,1854,Online,Monthly,Active,2021-04-13
+C0027,Customer_27,Enterprise,North,Healthcare,630,Direct Sales,Monthly,Inactive,2023-10-02
+C0028,Customer_28,SMB,South,Manufacturing,1133,Direct Sales,Yearly,Inactive,2021-05-12
+C0029,Customer_29,SMB,West,Finance,822,Online,Yearly,Inactive,2021-12-26
+C0030,Customer_30,SMB,West,Tech,493,Direct Sales,Yearly,Active,2020-05-04
+C0031,Customer_31,SMB,East,Retail,2086,Online,Monthly,Inactive,2020-10-14
+C0032,Customer_32,SMB,South,Healthcare,3839,Online,Monthly,Inactive,2024-07-12
+C0033,Customer_33,Mid-Market,North,Retail,4478,Online,Monthly,Active,2020-12-06
+C0034,Customer_34,SMB,West,Tech,1801,Partner,Monthly,Active,2022-02-15
+C0035,Customer_35,Enterprise,West,Healthcare,3777,Partner,Quarterly,Inactive,2020-11-13
+C0036,Customer_36,Enterprise,East,Finance,529,Direct Sales,Yearly,Active,2024-03-11
+C0037,Customer_37,SMB,North,Retail,4835,Partner,Yearly,Active,2020-04-26
+C0038,Customer_38,Mid-Market,North,Finance,611,Direct Sales,Monthly,Active,2022-04-06
+C0039,Customer_39,Enterprise,South,Manufacturing,4920,Online,Yearly,Active,2022-05-08
+C0040,Customer_40,Mid-Market,East,Healthcare,1723,Direct Sales,Yearly,Inactive,2021-05-03
+C0041,Customer_41,SMB,West,Finance,2507,Partner,Quarterly,Active,2020-01-20
+C0042,Customer_42,SMB,North,Retail,4454,Online,Yearly,Inactive,2020-09-28
+C0043,Customer_43,SMB,North,Finance,3077,Partner,Monthly,Inactive,2024-09-03
+C0044,Customer_44,Mid-Market,East,Manufacturing,4383,Online,Yearly,Inactive,2025-03-23
+C0045,Customer_45,Mid-Market,North,Finance,2216,Online,Monthly,Active,2021-07-11
+C0046,Customer_46,SMB,South,Healthcare,1717,Direct Sales,Yearly,Inactive,2022-11-01
+C0047,Customer_47,SMB,East,Retail,806,Direct Sales,Quarterly,Inactive,2020-03-31
+C0048,Customer_48,Enterprise,East,Finance,2195,Online,Yearly,Inactive,2023-02-03
+C0049,Customer_49,Mid-Market,West,Manufacturing,129,Online,Monthly,Active,2023-01-22
+C0050,Customer_50,Enterprise,East,Manufacturing,4576,Online,Quarterly,Active,2020-03-26
+C0051,Customer_51,SMB,East,Retail,2981,Online,Yearly,Active,2023-09-27
+C0052,Customer_52,Enterprise,East,Manufacturing,3379,Direct Sales,Yearly,Active,2025-03-10
+C0053,Customer_53,Enterprise,South,Finance,3427,Online,Monthly,Inactive,2024-05-21
+C0054,Customer_54,SMB,South,Healthcare,1354,Direct Sales,Monthly,Inactive,2024-11-21
+C0055,Customer_55,Enterprise,West,Finance,1684,Partner,Quarterly,Inactive,2024-08-07
+C0056,Customer_56,Enterprise,South,Retail,1632,Partner,Quarterly,Inactive,2024-11-05
+C0057,Customer_57,Enterprise,East,Healthcare,4223,Partner,Yearly,Inactive,2025-04-07
+C0058,Customer_58,Enterprise,North,Healthcare,1512,Direct Sales,Quarterly,Active,2020-08-10
+C0059,Customer_59,Mid-Market,West,Healthcare,2619,Partner,Yearly,Active,2022-02-27
+C0060,Customer_60,Mid-Market,South,Healthcare,413,Direct Sales,Quarterly,Active,2022-11-30
+C0061,Customer_61,Mid-Market,South,Healthcare,3583,Online,Yearly,Inactive,2023-06-30
+C0062,Customer_62,SMB,North,Healthcare,4204,Partner,Yearly,Inactive,2021-10-30
+C0063,Customer_63,SMB,East,Manufacturing,1092,Online,Quarterly,Inactive,2023-10-19
+C0064,Customer_64,Mid-Market,South,Manufacturing,4712,Partner,Quarterly,Active,2021-09-14
+C0065,Customer_65,SMB,South,Tech,4801,Direct Sales,Yearly,Inactive,2022-08-10
+C0066,Customer_66,SMB,West,Finance,4237,Partner,Yearly,Active,2023-09-11
+C0067,Customer_67,Enterprise,East,Manufacturing,2795,Online,Monthly,Inactive,2021-04-05
+C0068,Customer_68,Enterprise,South,Retail,428,Online,Quarterly,Active,2022-07-21
+C0069,Customer_69,SMB,South,Tech,4099,Partner,Monthly,Active,2023-09-05
+C0070,Customer_70,Mid-Market,North,Retail,3532,Online,Monthly,Inactive,2020-04-12
+C0071,Customer_71,Mid-Market,South,Retail,3789,Online,Quarterly,Inactive,2025-04-29
+C0072,Customer_72,SMB,West,Manufacturing,3702,Online,Yearly,Inactive,2022-07-10
+C0073,Customer_73,SMB,South,Healthcare,4320,Partner,Yearly,Active,2021-07-16
+C0074,Customer_74,SMB,North,Healthcare,1970,Partner,Quarterly,Inactive,2025-01-02
+C0075,Customer_75,Mid-Market,North,Finance,1285,Online,Quarterly,Active,2023-12-17
+C0076,Customer_76,Enterprise,North,Tech,3389,Partner,Yearly,Inactive,2022-05-01
+C0077,Customer_77,Enterprise,South,Tech,3240,Direct Sales,Yearly,Active,2024-10-20
+C0078,Customer_78,Mid-Market,West,Tech,98,Partner,Quarterly,Inactive,2024-10-13
+C0079,Customer_79,SMB,South,Tech,1847,Partner,Quarterly,Inactive,2020-02-29
+C0080,Customer_80,SMB,East,Tech,1402,Partner,Monthly,Active,2025-01-31
+C0081,Customer_81,SMB,North,Retail,3561,Online,Quarterly,Active,2020-04-12
+C0082,Customer_82,SMB,West,Healthcare,1783,Partner,Quarterly,Inactive,2024-04-07
+C0083,Customer_83,SMB,East,Tech,2116,Online,Quarterly,Active,2024-03-14
+C0084,Customer_84,Mid-Market,North,Healthcare,1886,Direct Sales,Monthly,Active,2024-03-24
+C0085,Customer_85,Enterprise,South,Finance,216,Direct Sales,Monthly,Active,2020-09-15
+C0086,Customer_86,SMB,North,Manufacturing,1835,Partner,Yearly,Inactive,2024-04-19
+C0087,Customer_87,SMB,South,Manufacturing,988,Online,Quarterly,Active,2023-03-31
+C0088,Customer_88,Enterprise,East,Manufacturing,3124,Partner,Yearly,Active,2020-06-04
+C0089,Customer_89,Mid-Market,South,Retail,2520,Direct Sales,Yearly,Active,2024-06-18
+C0090,Customer_90,Mid-Market,North,Healthcare,4414,Partner,Yearly,Inactive,2020-05-21
+C0091,Customer_91,Mid-Market,East,Retail,3491,Partner,Monthly,Inactive,2025-05-21
+C0092,Customer_92,SMB,West,Finance,3617,Online,Yearly,Inactive,2023-06-15
+C0093,Customer_93,Mid-Market,West,Tech,3618,Direct Sales,Yearly,Inactive,2021-10-22
+C0094,Customer_94,Enterprise,North,Healthcare,3742,Online,Quarterly,Inactive,2021-11-19
+C0095,Customer_95,Enterprise,West,Healthcare,1539,Partner,Monthly,Inactive,2024-06-21
+C0096,Customer_96,SMB,East,Healthcare,4933,Direct Sales,Quarterly,Active,2022-11-24
+C0097,Customer_97,Enterprise,North,Finance,3379,Partner,Yearly,Active,2023-11-15
+C0098,Customer_98,SMB,West,Tech,191,Online,Quarterly,Active,2022-04-08
+C0099,Customer_99,Mid-Market,South,Healthcare,4814,Partner,Quarterly,Inactive,2022-05-21
+C0100,Customer_100,Mid-Market,East,Healthcare,3767,Partner,Quarterly,Inactive,2021-04-17
+C0101,Customer_101,Enterprise,South,Healthcare,1029,Direct Sales,Yearly,Active,2021-01-27
+C0102,Customer_102,Enterprise,West,Healthcare,4879,Direct Sales,Yearly,Inactive,2020-07-24
+C0103,Customer_103,Enterprise,East,Finance,3006,Online,Quarterly,Active,2023-12-21
+C0104,Customer_104,Mid-Market,South,Healthcare,422,Online,Yearly,Inactive,2023-11-29
+C0105,Customer_105,Enterprise,West,Retail,150,Direct Sales,Quarterly,Inactive,2022-09-07
+C0106,Customer_106,SMB,East,Finance,470,Partner,Quarterly,Active,2024-08-10
+C0107,Customer_107,Enterprise,West,Tech,656,Direct Sales,Yearly,Active,2020-11-06
+C0108,Customer_108,Enterprise,East,Retail,2083,Online,Yearly,Inactive,2023-05-26
+C0109,Customer_109,Mid-Market,South,Manufacturing,3166,Partner,Quarterly,Inactive,2024-10-27
+C0110,Customer_110,Mid-Market,West,Healthcare,4708,Direct Sales,Monthly,Active,2025-04-24
+C0111,Customer_111,Enterprise,South,Healthcare,715,Online,Monthly,Active,2023-02-04
+C0112,Customer_112,Enterprise,South,Retail,3396,Partner,Yearly,Inactive,2021-08-19
+C0113,Customer_113,Enterprise,South,Healthcare,2366,Direct Sales,Quarterly,Active,2023-11-08
+C0114,Customer_114,Enterprise,East,Manufacturing,1670,Partner,Monthly,Active,2023-08-19
+C0115,Customer_115,Enterprise,East,Finance,634,Online,Monthly,Inactive,2023-05-03
+C0116,Customer_116,Mid-Market,East,Tech,1068,Partner,Yearly,Inactive,2023-12-04
+C0117,Customer_117,SMB,East,Manufacturing,4473,Partner,Quarterly,Active,2023-05-09
+C0118,Customer_118,Enterprise,West,Healthcare,4995,Partner,Monthly,Active,2021-04-13
+C0119,Customer_119,Mid-Market,North,Healthcare,4770,Online,Monthly,Inactive,2022-11-28
+C0120,Customer_120,Mid-Market,West,Healthcare,1536,Direct Sales,Quarterly,Inactive,2025-06-07
+C0121,Customer_121,Enterprise,West,Healthcare,3395,Partner,Quarterly,Active,2024-10-22
+C0122,Customer_122,Enterprise,East,Tech,4108,Partner,Yearly,Inactive,2024-07-24
+C0123,Customer_123,Mid-Market,North,Tech,771,Partner,Quarterly,Inactive,2020-08-25
+C0124,Customer_124,SMB,North,Manufacturing,3834,Partner,Monthly,Active,2022-11-27
+C0125,Customer_125,SMB,West,Tech,472,Online,Quarterly,Active,2025-03-14
+C0126,Customer_126,SMB,West,Tech,1044,Online,Yearly,Active,2023-12-24
+C0127,Customer_127,Enterprise,East,Manufacturing,162,Direct Sales,Quarterly,Active,2021-04-05
+C0128,Customer_128,Enterprise,West,Retail,1311,Partner,Yearly,Inactive,2022-11-08
+C0129,Customer_129,Mid-Market,East,Tech,4002,Partner,Monthly,Inactive,2023-02-02
+C0130,Customer_130,Enterprise,West,Finance,4960,Direct Sales,Yearly,Active,2024-11-04
+C0131,Customer_131,Enterprise,East,Tech,2834,Direct Sales,Quarterly,Active,2021-08-02
+C0132,Customer_132,Mid-Market,East,Manufacturing,4800,Direct Sales,Quarterly,Active,2022-07-03
+C0133,Customer_133,Mid-Market,West,Healthcare,2773,Direct Sales,Yearly,Inactive,2022-07-21
+C0134,Customer_134,SMB,South,Finance,4734,Partner,Monthly,Inactive,2020-03-30
+C0135,Customer_135,SMB,West,Tech,3212,Direct Sales,Yearly,Active,2022-10-11
+C0136,Customer_136,Enterprise,South,Manufacturing,4884,Partner,Monthly,Inactive,2020-07-23
+C0137,Customer_137,Mid-Market,West,Retail,1230,Partner,Yearly,Active,2020-06-02
+C0138,Customer_138,SMB,East,Healthcare,3306,Direct Sales,Monthly,Inactive,2024-10-11
+C0139,Customer_139,Mid-Market,West,Healthcare,4047,Direct Sales,Monthly,Active,2021-04-25
+C0140,Customer_140,Mid-Market,East,Finance,790,Partner,Monthly,Active,2022-06-27
+C0141,Customer_141,Enterprise,East,Retail,426,Partner,Monthly,Inactive,2022-01-04
+C0142,Customer_142,SMB,West,Finance,2050,Direct Sales,Quarterly,Active,2020-12-14
+C0143,Customer_143,Enterprise,North,Manufacturing,3183,Direct Sales,Yearly,Active,2022-10-16
+C0144,Customer_144,Mid-Market,South,Finance,3827,Direct Sales,Quarterly,Inactive,2021-06-06
+C0145,Customer_145,Mid-Market,North,Tech,2406,Direct Sales,Yearly,Active,2020-05-31
+C0146,Customer_146,SMB,East,Manufacturing,2500,Direct Sales,Quarterly,Inactive,2022-07-24
+C0147,Customer_147,SMB,South,Tech,4008,Online,Monthly,Inactive,2023-03-17
+C0148,Customer_148,SMB,East,Healthcare,229,Direct Sales,Quarterly,Inactive,2020-01-17
+C0149,Customer_149,Mid-Market,North,Manufacturing,4119,Partner,Monthly,Inactive,2021-03-24
+C0150,Customer_150,Mid-Market,South,Manufacturing,2103,Direct Sales,Yearly,Active,2023-07-10
+C0151,Customer_151,Enterprise,North,Healthcare,3661,Online,Yearly,Inactive,2024-02-08
+C0152,Customer_152,Enterprise,North,Healthcare,2726,Direct Sales,Quarterly,Active,2021-02-15
+C0153,Customer_153,Enterprise,East,Manufacturing,4160,Partner,Monthly,Inactive,2025-02-14
+C0154,Customer_154,SMB,East,Healthcare,993,Partner,Monthly,Active,2024-03-24
+C0155,Customer_155,Enterprise,West,Manufacturing,3046,Online,Quarterly,Active,2021-06-25
+C0156,Customer_156,Mid-Market,North,Tech,3069,Direct Sales,Yearly,Inactive,2023-04-12
+C0157,Customer_157,SMB,East,Retail,1965,Partner,Monthly,Inactive,2025-02-17
+C0158,Customer_158,Mid-Market,South,Retail,3853,Direct Sales,Quarterly,Inactive,2020-08-26
+C0159,Customer_159,Enterprise,North,Retail,2543,Partner,Monthly,Active,2021-04-25
+C0160,Customer_160,Mid-Market,South,Tech,3766,Partner,Yearly,Inactive,2023-04-17
+C0161,Customer_161,Mid-Market,South,Tech,861,Partner,Yearly,Inactive,2025-04-07
+C0162,Customer_162,SMB,North,Healthcare,1829,Partner,Quarterly,Active,2024-10-17
+C0163,Customer_163,SMB,North,Healthcare,4510,Direct Sales,Quarterly,Active,2022-03-26
+C0164,Customer_164,SMB,South,Retail,3775,Online,Yearly,Active,2023-08-07
+C0165,Customer_165,Mid-Market,North,Retail,2782,Online,Monthly,Active,2020-05-20
+C0166,Customer_166,Mid-Market,South,Manufacturing,1819,Online,Quarterly,Active,2024-06-03
+C0167,Customer_167,Mid-Market,North,Healthcare,1235,Online,Yearly,Inactive,2024-06-23
+C0168,Customer_168,Enterprise,North,Retail,1129,Online,Quarterly,Active,2023-04-20
+C0169,Customer_169,SMB,North,Finance,2223,Online,Monthly,Inactive,2022-12-13
+C0170,Customer_170,Enterprise,North,Tech,3722,Partner,Yearly,Active,2022-07-14
+C0171,Customer_171,Mid-Market,South,Manufacturing,405,Direct Sales,Yearly,Inactive,2022-07-27
+C0172,Customer_172,Mid-Market,North,Retail,3973,Partner,Quarterly,Active,2022-10-01
+C0173,Customer_173,Mid-Market,West,Retail,711,Partner,Yearly,Active,2020-05-14
+C0174,Customer_174,Enterprise,East,Manufacturing,4845,Direct Sales,Yearly,Inactive,2022-02-19
+C0175,Customer_175,Mid-Market,East,Tech,4191,Direct Sales,Quarterly,Active,2024-06-12
+C0176,Customer_176,Mid-Market,North,Manufacturing,1811,Partner,Quarterly,Active,2022-04-27
+C0177,Customer_177,SMB,West,Tech,3457,Direct Sales,Monthly,Inactive,2022-05-24
+C0178,Customer_178,SMB,East,Healthcare,1300,Direct Sales,Quarterly,Active,2020-07-05
+C0179,Customer_179,Enterprise,North,Tech,841,Direct Sales,Yearly,Inactive,2024-07-20
+C0180,Customer_180,Enterprise,North,Manufacturing,4650,Direct Sales,Quarterly,Active,2022-04-21
+C0181,Customer_181,SMB,West,Retail,2406,Direct Sales,Quarterly,Inactive,2020-07-31
+C0182,Customer_182,Mid-Market,South,Finance,4000,Online,Monthly,Inactive,2024-09-27
+C0183,Customer_183,Mid-Market,East,Retail,2332,Direct Sales,Monthly,Inactive,2024-09-26
+C0184,Customer_184,Mid-Market,North,Manufacturing,2240,Online,Monthly,Inactive,2023-12-10
+C0185,Customer_185,SMB,East,Healthcare,100,Online,Monthly,Inactive,2020-05-22
+C0186,Customer_186,Enterprise,North,Retail,4395,Online,Quarterly,Inactive,2022-07-18
+C0187,Customer_187,SMB,South,Healthcare,2602,Direct Sales,Quarterly,Active,2024-12-14
+C0188,Customer_188,Enterprise,South,Finance,457,Direct Sales,Monthly,Inactive,2022-06-26
+C0189,Customer_189,Mid-Market,West,Tech,3671,Partner,Quarterly,Active,2024-03-26
+C0190,Customer_190,Mid-Market,North,Healthcare,3571,Online,Quarterly,Inactive,2022-12-15
+C0191,Customer_191,Mid-Market,East,Retail,1856,Partner,Yearly,Active,2020-01-16
+C0192,Customer_192,Enterprise,East,Finance,1174,Partner,Quarterly,Inactive,2020-09-02
+C0193,Customer_193,Enterprise,West,Tech,1489,Online,Quarterly,Active,2022-10-21
+C0194,Customer_194,Mid-Market,East,Retail,3302,Direct Sales,Monthly,Inactive,2020-02-08
+C0195,Customer_195,SMB,North,Healthcare,4766,Partner,Yearly,Inactive,2023-12-24
+C0196,Customer_196,Mid-Market,West,Healthcare,993,Partner,Monthly,Inactive,2020-12-17
+C0197,Customer_197,Mid-Market,West,Healthcare,771,Partner,Monthly,Active,2022-06-11
+C0198,Customer_198,Mid-Market,West,Manufacturing,694,Partner,Quarterly,Inactive,2021-03-29
+C0199,Customer_199,SMB,South,Retail,4231,Direct Sales,Monthly,Active,2025-01-29
+C0200,Customer_200,SMB,East,Finance,1985,Online,Monthly,Inactive,2021-02-08
+C0201,Customer_201,Enterprise,South,Retail,1501,Direct Sales,Quarterly,Inactive,2024-03-25
+C0202,Customer_202,Mid-Market,West,Manufacturing,2697,Direct Sales,Quarterly,Active,2022-06-19
+C0203,Customer_203,Enterprise,West,Tech,2530,Partner,Yearly,Active,2021-12-21
+C0204,Customer_204,Mid-Market,North,Healthcare,3832,Partner,Monthly,Active,2022-01-25
+C0205,Customer_205,SMB,North,Retail,4916,Direct Sales,Quarterly,Inactive,2023-04-03
+C0206,Customer_206,Mid-Market,North,Tech,4733,Direct Sales,Monthly,Inactive,2023-05-24
+C0207,Customer_207,SMB,South,Retail,3740,Online,Quarterly,Active,2022-10-30
+C0208,Customer_208,Mid-Market,South,Retail,2079,Direct Sales,Quarterly,Inactive,2022-12-09
+C0209,Customer_209,Mid-Market,South,Healthcare,3104,Partner,Quarterly,Inactive,2024-05-05
+C0210,Customer_210,SMB,North,Healthcare,589,Partner,Monthly,Inactive,2021-08-04
+C0211,Customer_211,SMB,South,Healthcare,717,Direct Sales,Yearly,Active,2025-02-20
+C0212,Customer_212,SMB,East,Tech,1106,Direct Sales,Yearly,Active,2021-09-26
+C0213,Customer_213,Mid-Market,West,Healthcare,1096,Direct Sales,Yearly,Active,2023-08-16
+C0214,Customer_214,Mid-Market,West,Manufacturing,3014,Online,Quarterly,Inactive,2021-01-04
+C0215,Customer_215,Enterprise,East,Tech,1622,Online,Monthly,Active,2020-06-07
+C0216,Customer_216,SMB,North,Manufacturing,4471,Direct Sales,Yearly,Active,2023-09-17
+C0217,Customer_217,SMB,South,Manufacturing,3136,Online,Monthly,Active,2024-08-29
+C0218,Customer_218,Mid-Market,South,Tech,407,Partner,Quarterly,Active,2025-06-08
+C0219,Customer_219,SMB,East,Tech,1966,Direct Sales,Monthly,Inactive,2025-05-31
+C0220,Customer_220,SMB,South,Healthcare,4722,Partner,Quarterly,Inactive,2024-05-12
+C0221,Customer_221,SMB,West,Finance,1685,Direct Sales,Monthly,Inactive,2020-04-16
+C0222,Customer_222,Mid-Market,West,Healthcare,4592,Online,Yearly,Active,2021-08-06
+C0223,Customer_223,Enterprise,South,Healthcare,3730,Direct Sales,Monthly,Inactive,2020-07-06
+C0224,Customer_224,Enterprise,West,Healthcare,268,Partner,Monthly,Inactive,2022-10-25
+C0225,Customer_225,SMB,South,Tech,718,Partner,Monthly,Active,2021-10-14
+C0226,Customer_226,Enterprise,East,Finance,1177,Online,Quarterly,Inactive,2023-11-26
+C0227,Customer_227,Enterprise,West,Tech,93,Online,Monthly,Inactive,2021-03-17
+C0228,Customer_228,Enterprise,West,Retail,2410,Online,Quarterly,Active,2020-04-07
+C0229,Customer_229,Enterprise,West,Manufacturing,3794,Online,Monthly,Inactive,2023-05-07
+C0230,Customer_230,Mid-Market,North,Manufacturing,4760,Online,Yearly,Active,2021-08-19
+C0231,Customer_231,SMB,North,Manufacturing,2940,Online,Yearly,Inactive,2021-01-18
+C0232,Customer_232,Mid-Market,North,Manufacturing,3004,Online,Yearly,Active,2022-03-10
+C0233,Customer_233,SMB,North,Tech,3108,Partner,Yearly,Active,2022-01-01
+C0234,Customer_234,Enterprise,East,Finance,899,Direct Sales,Yearly,Inactive,2020-09-30
+C0235,Customer_235,Enterprise,East,Manufacturing,2823,Direct Sales,Monthly,Inactive,2023-11-25
+C0236,Customer_236,SMB,South,Finance,566,Direct Sales,Quarterly,Active,2021-08-23
+C0237,Customer_237,Enterprise,North,Finance,393,Partner,Quarterly,Inactive,2024-07-27
+C0238,Customer_238,Mid-Market,West,Healthcare,349,Direct Sales,Monthly,Inactive,2022-01-01
+C0239,Customer_239,Enterprise,East,Healthcare,1069,Partner,Quarterly,Inactive,2024-03-02
+C0240,Customer_240,SMB,West,Healthcare,1580,Partner,Yearly,Inactive,2022-01-22
+C0241,Customer_241,Mid-Market,East,Retail,3527,Online,Quarterly,Active,2023-01-22
+C0242,Customer_242,SMB,East,Retail,705,Partner,Yearly,Inactive,2021-09-19
+C0243,Customer_243,SMB,West,Finance,3686,Partner,Quarterly,Active,2024-01-28
+C0244,Customer_244,SMB,West,Healthcare,519,Online,Yearly,Inactive,2022-01-14
+C0245,Customer_245,Mid-Market,South,Retail,1219,Direct Sales,Yearly,Inactive,2020-03-12
+C0246,Customer_246,Enterprise,North,Finance,3050,Partner,Quarterly,Active,2023-05-24
+C0247,Customer_247,Enterprise,West,Healthcare,3097,Partner,Monthly,Active,2022-12-20
+C0248,Customer_248,SMB,West,Healthcare,2333,Online,Monthly,Active,2024-02-15
+C0249,Customer_249,Enterprise,West,Manufacturing,3220,Direct Sales,Monthly,Inactive,2024-05-06
+C0250,Customer_250,SMB,West,Finance,2389,Direct Sales,Quarterly,Active,2020-09-08
+C0251,Customer_251,Enterprise,North,Tech,1464,Direct Sales,Quarterly,Active,2024-07-17
+C0252,Customer_252,Mid-Market,East,Healthcare,581,Direct Sales,Yearly,Inactive,2024-12-30
+C0253,Customer_253,SMB,South,Finance,3011,Direct Sales,Monthly,Active,2021-02-15
+C0254,Customer_254,Enterprise,South,Tech,265,Partner,Yearly,Inactive,2022-08-15
+C0255,Customer_255,Mid-Market,South,Manufacturing,756,Online,Quarterly,Inactive,2024-01-08
+C0256,Customer_256,Mid-Market,West,Manufacturing,3415,Partner,Yearly,Active,2020-09-13
+C0257,Customer_257,SMB,North,Tech,3866,Direct Sales,Yearly,Inactive,2020-09-19
+C0258,Customer_258,Mid-Market,South,Finance,3594,Direct Sales,Monthly,Active,2022-11-27
+C0259,Customer_259,Enterprise,East,Finance,1376,Partner,Yearly,Active,2021-12-09
+C0260,Customer_260,Mid-Market,East,Retail,2102,Online,Yearly,Inactive,2020-09-13
+C0261,Customer_261,Mid-Market,East,Manufacturing,4420,Online,Yearly,Active,2023-04-27
+C0262,Customer_262,Mid-Market,South,Finance,2815,Direct Sales,Monthly,Active,2020-06-15
+C0263,Customer_263,Enterprise,East,Finance,4736,Partner,Yearly,Active,2022-10-16
+C0264,Customer_264,Mid-Market,East,Healthcare,4006,Online,Yearly,Inactive,2021-09-01
+C0265,Customer_265,SMB,North,Retail,1344,Partner,Quarterly,Inactive,2022-08-09
+C0266,Customer_266,Enterprise,East,Manufacturing,1226,Partner,Yearly,Inactive,2024-02-12
+C0267,Customer_267,SMB,West,Finance,3085,Direct Sales,Yearly,Active,2021-10-15
+C0268,Customer_268,Enterprise,West,Retail,2241,Partner,Monthly,Active,2020-07-17
+C0269,Customer_269,Enterprise,East,Tech,3475,Online,Monthly,Inactive,2025-03-27
+C0270,Customer_270,Mid-Market,East,Finance,1355,Partner,Yearly,Inactive,2022-10-18
+C0271,Customer_271,SMB,West,Retail,787,Partner,Yearly,Inactive,2025-06-02
+C0272,Customer_272,Enterprise,South,Manufacturing,2940,Online,Monthly,Inactive,2022-10-10
+C0273,Customer_273,Mid-Market,West,Healthcare,4446,Online,Monthly,Inactive,2020-10-01
+C0274,Customer_274,SMB,East,Tech,3047,Online,Quarterly,Active,2023-03-13
+C0275,Customer_275,Mid-Market,South,Healthcare,4582,Partner,Monthly,Inactive,2022-10-29
+C0276,Customer_276,SMB,East,Manufacturing,1023,Online,Monthly,Inactive,2022-02-03
+C0277,Customer_277,SMB,East,Finance,1680,Direct Sales,Yearly,Inactive,2022-10-21
+C0278,Customer_278,Enterprise,North,Retail,1172,Direct Sales,Quarterly,Inactive,2022-11-29
+C0279,Customer_279,SMB,South,Manufacturing,4273,Online,Quarterly,Inactive,2020-11-28
+C0280,Customer_280,SMB,East,Manufacturing,2805,Direct Sales,Yearly,Inactive,2023-12-22
+C0281,Customer_281,Mid-Market,East,Tech,186,Partner,Quarterly,Active,2022-05-03
+C0282,Customer_282,Mid-Market,East,Retail,4939,Partner,Quarterly,Active,2024-01-17
+C0283,Customer_283,Enterprise,West,Finance,4344,Direct Sales,Yearly,Inactive,2020-10-29
+C0284,Customer_284,Mid-Market,South,Retail,4740,Direct Sales,Monthly,Active,2020-02-08
+C0285,Customer_285,SMB,East,Tech,1290,Partner,Yearly,Active,2022-04-20
+C0286,Customer_286,Mid-Market,West,Retail,1181,Direct Sales,Monthly,Inactive,2023-09-18
+C0287,Customer_287,SMB,West,Healthcare,1468,Partner,Yearly,Inactive,2023-01-23
+C0288,Customer_288,SMB,East,Manufacturing,4016,Online,Monthly,Inactive,2023-02-16
+C0289,Customer_289,SMB,South,Healthcare,2417,Direct Sales,Monthly,Inactive,2021-10-11
+C0290,Customer_290,SMB,East,Manufacturing,2290,Partner,Monthly,Inactive,2025-01-08
+C0291,Customer_291,SMB,East,Finance,2429,Online,Quarterly,Active,2021-12-10
+C0292,Customer_292,SMB,East,Tech,1802,Online,Yearly,Inactive,2025-03-25
+C0293,Customer_293,Mid-Market,East,Finance,944,Direct Sales,Yearly,Active,2021-05-11
+C0294,Customer_294,Enterprise,South,Finance,480,Online,Quarterly,Inactive,2024-01-09
+C0295,Customer_295,SMB,North,Finance,92,Direct Sales,Monthly,Inactive,2023-08-30
+C0296,Customer_296,SMB,West,Finance,2403,Partner,Quarterly,Active,2025-02-02
+C0297,Customer_297,Enterprise,South,Manufacturing,355,Online,Quarterly,Active,2025-03-27
+C0298,Customer_298,Enterprise,West,Tech,1576,Direct Sales,Quarterly,Active,2020-01-19
+C0299,Customer_299,SMB,North,Healthcare,2381,Partner,Yearly,Inactive,2024-12-26
+C0300,Customer_300,Enterprise,West,Healthcare,1629,Online,Quarterly,Active,2024-02-06
+C0301,Customer_301,SMB,East,Finance,165,Direct Sales,Quarterly,Inactive,2023-03-08
+C0302,Customer_302,Mid-Market,South,Finance,3371,Partner,Yearly,Inactive,2020-06-26
+C0303,Customer_303,SMB,North,Finance,1201,Partner,Quarterly,Active,2020-01-14
+C0304,Customer_304,SMB,West,Finance,3709,Partner,Quarterly,Inactive,2023-04-07
+C0305,Customer_305,Mid-Market,North,Healthcare,2995,Direct Sales,Monthly,Active,2023-09-29
+C0306,Customer_306,Enterprise,West,Healthcare,1358,Partner,Yearly,Inactive,2023-11-14
+C0307,Customer_307,Enterprise,East,Healthcare,1859,Online,Monthly,Inactive,2020-11-09
+C0308,Customer_308,SMB,East,Tech,4549,Partner,Yearly,Active,2024-04-09
+C0309,Customer_309,Enterprise,North,Manufacturing,3709,Direct Sales,Yearly,Inactive,2020-06-08
+C0310,Customer_310,Mid-Market,North,Retail,4536,Direct Sales,Monthly,Active,2020-12-02
+C0311,Customer_311,SMB,West,Retail,1732,Direct Sales,Yearly,Inactive,2020-07-05
+C0312,Customer_312,Mid-Market,West,Retail,3764,Online,Yearly,Inactive,2022-07-24
+C0313,Customer_313,Mid-Market,North,Manufacturing,3837,Direct Sales,Quarterly,Active,2022-03-21
+C0314,Customer_314,SMB,North,Finance,4787,Online,Monthly,Inactive,2021-12-06
+C0315,Customer_315,Mid-Market,North,Manufacturing,543,Online,Quarterly,Active,2021-08-10
+C0316,Customer_316,SMB,South,Finance,3493,Partner,Quarterly,Inactive,2024-11-15
+C0317,Customer_317,SMB,West,Retail,4467,Online,Yearly,Inactive,2020-08-30
+C0318,Customer_318,Enterprise,West,Manufacturing,1093,Direct Sales,Monthly,Active,2024-03-28
+C0319,Customer_319,Enterprise,East,Tech,4510,Partner,Yearly,Inactive,2024-08-13
+C0320,Customer_320,Enterprise,South,Tech,2885,Online,Quarterly,Active,2025-04-03
+C0321,Customer_321,Mid-Market,North,Retail,3484,Direct Sales,Monthly,Active,2021-02-26
+C0322,Customer_322,Enterprise,North,Manufacturing,325,Partner,Yearly,Active,2021-05-16
+C0323,Customer_323,Mid-Market,North,Tech,3645,Online,Yearly,Active,2024-03-24
+C0324,Customer_324,Enterprise,South,Manufacturing,2419,Online,Yearly,Inactive,2023-03-28
+C0325,Customer_325,Mid-Market,East,Finance,2522,Online,Yearly,Active,2022-04-26
+C0326,Customer_326,SMB,East,Retail,4610,Direct Sales,Yearly,Active,2023-07-06
+C0327,Customer_327,Mid-Market,West,Manufacturing,4110,Online,Quarterly,Inactive,2024-05-28
+C0328,Customer_328,Mid-Market,East,Tech,3394,Online,Quarterly,Inactive,2021-01-11
+C0329,Customer_329,Mid-Market,West,Finance,1896,Partner,Yearly,Active,2024-07-08
+C0330,Customer_330,SMB,North,Manufacturing,3430,Partner,Yearly,Active,2022-03-06
+C0331,Customer_331,Enterprise,East,Finance,2755,Direct Sales,Monthly,Inactive,2024-09-30
+C0332,Customer_332,SMB,North,Manufacturing,1610,Online,Quarterly,Inactive,2023-10-11
+C0333,Customer_333,Mid-Market,North,Retail,1591,Direct Sales,Yearly,Active,2022-09-08
+C0334,Customer_334,Enterprise,East,Healthcare,175,Online,Monthly,Active,2024-03-09
+C0335,Customer_335,SMB,South,Manufacturing,1725,Partner,Monthly,Inactive,2024-05-07
+C0336,Customer_336,SMB,West,Tech,4421,Direct Sales,Quarterly,Inactive,2021-06-19
+C0337,Customer_337,SMB,West,Tech,857,Direct Sales,Quarterly,Inactive,2025-02-15
+C0338,Customer_338,Enterprise,East,Healthcare,3440,Online,Yearly,Active,2024-02-27
+C0339,Customer_339,Enterprise,North,Healthcare,4582,Direct Sales,Yearly,Inactive,2021-08-27
+C0340,Customer_340,Enterprise,South,Healthcare,1934,Partner,Yearly,Active,2022-10-19
+C0341,Customer_341,Mid-Market,East,Healthcare,4052,Direct Sales,Yearly,Inactive,2022-08-01
+C0342,Customer_342,Enterprise,East,Finance,1196,Direct Sales,Yearly,Inactive,2021-01-11
+C0343,Customer_343,Mid-Market,North,Manufacturing,327,Online,Yearly,Active,2024-04-14
+C0344,Customer_344,Enterprise,West,Finance,1945,Online,Yearly,Active,2020-01-19
+C0345,Customer_345,Enterprise,West,Healthcare,545,Direct Sales,Yearly,Inactive,2023-09-12
+C0346,Customer_346,SMB,North,Retail,4409,Direct Sales,Quarterly,Active,2020-02-04
+C0347,Customer_347,Mid-Market,East,Manufacturing,2398,Online,Yearly,Inactive,2024-07-09
+C0348,Customer_348,Enterprise,North,Retail,4345,Online,Monthly,Active,2023-06-23
+C0349,Customer_349,Mid-Market,East,Healthcare,2239,Partner,Monthly,Inactive,2025-05-18
+C0350,Customer_350,SMB,West,Manufacturing,2042,Direct Sales,Monthly,Inactive,2023-11-01
+C0351,Customer_351,Enterprise,North,Retail,3370,Partner,Quarterly,Inactive,2020-04-24
+C0352,Customer_352,Mid-Market,North,Finance,727,Partner,Quarterly,Inactive,2023-03-04
+C0353,Customer_353,Enterprise,North,Finance,1781,Direct Sales,Yearly,Inactive,2021-07-09
+C0354,Customer_354,Enterprise,North,Healthcare,4498,Direct Sales,Yearly,Active,2021-01-02
+C0355,Customer_355,SMB,North,Finance,4858,Online,Yearly,Inactive,2025-03-17
+C0356,Customer_356,Enterprise,East,Finance,4669,Online,Yearly,Inactive,2023-10-18
+C0357,Customer_357,Mid-Market,East,Tech,1196,Direct Sales,Yearly,Active,2022-10-22
+C0358,Customer_358,Mid-Market,East,Retail,850,Partner,Monthly,Active,2021-11-28
+C0359,Customer_359,Mid-Market,West,Healthcare,292,Direct Sales,Quarterly,Inactive,2022-10-01
+C0360,Customer_360,Enterprise,East,Manufacturing,3125,Partner,Monthly,Inactive,2020-06-24
+C0361,Customer_361,Mid-Market,East,Finance,652,Online,Quarterly,Active,2022-02-17
+C0362,Customer_362,Mid-Market,South,Tech,2644,Partner,Monthly,Active,2020-01-11
+C0363,Customer_363,SMB,West,Healthcare,2259,Online,Monthly,Active,2021-01-18
+C0364,Customer_364,SMB,West,Manufacturing,4594,Direct Sales,Quarterly,Active,2020-02-23
+C0365,Customer_365,Enterprise,East,Manufacturing,812,Direct Sales,Yearly,Inactive,2024-11-03
+C0366,Customer_366,SMB,North,Healthcare,3439,Partner,Monthly,Active,2023-03-17
+C0367,Customer_367,Mid-Market,South,Tech,1438,Online,Quarterly,Inactive,2021-07-03
+C0368,Customer_368,SMB,South,Retail,1419,Partner,Quarterly,Inactive,2021-09-05
+C0369,Customer_369,SMB,North,Healthcare,2111,Online,Yearly,Inactive,2023-05-01
+C0370,Customer_370,Mid-Market,South,Tech,926,Online,Quarterly,Active,2025-04-27
+C0371,Customer_371,SMB,East,Manufacturing,3162,Partner,Quarterly,Inactive,2022-05-31
+C0372,Customer_372,Mid-Market,South,Healthcare,2676,Direct Sales,Yearly,Active,2022-09-08
+C0373,Customer_373,SMB,South,Tech,2664,Partner,Yearly,Inactive,2025-06-04
+C0374,Customer_374,Mid-Market,South,Healthcare,3130,Partner,Quarterly,Inactive,2020-08-21
+C0375,Customer_375,Mid-Market,South,Manufacturing,4519,Online,Yearly,Active,2025-05-05
+C0376,Customer_376,Mid-Market,West,Finance,3641,Partner,Yearly,Active,2024-08-04
+C0377,Customer_377,SMB,West,Finance,2530,Online,Quarterly,Active,2024-01-04
+C0378,Customer_378,SMB,West,Retail,3728,Direct Sales,Quarterly,Inactive,2022-12-30
+C0379,Customer_379,Mid-Market,West,Manufacturing,351,Partner,Yearly,Active,2020-08-11
+C0380,Customer_380,Enterprise,East,Finance,412,Direct Sales,Yearly,Inactive,2025-06-03
+C0381,Customer_381,SMB,West,Retail,136,Online,Quarterly,Active,2022-11-11
+C0382,Customer_382,Mid-Market,South,Tech,3114,Partner,Quarterly,Active,2021-12-07
+C0383,Customer_383,Enterprise,West,Retail,2470,Partner,Monthly,Active,2024-08-29
+C0384,Customer_384,Mid-Market,South,Healthcare,2605,Partner,Quarterly,Active,2022-12-03
+C0385,Customer_385,SMB,East,Tech,849,Partner,Yearly,Inactive,2021-10-15
+C0386,Customer_386,Enterprise,East,Retail,992,Online,Quarterly,Active,2023-10-18
+C0387,Customer_387,Enterprise,South,Manufacturing,1479,Direct Sales,Monthly,Inactive,2023-02-20
+C0388,Customer_388,SMB,West,Finance,3368,Direct Sales,Monthly,Active,2023-08-04
+C0389,Customer_389,Mid-Market,West,Tech,289,Direct Sales,Yearly,Active,2022-07-09
+C0390,Customer_390,Mid-Market,West,Tech,86,Direct Sales,Monthly,Active,2021-07-24
+C0391,Customer_391,Mid-Market,North,Manufacturing,883,Direct Sales,Monthly,Inactive,2021-10-29
+C0392,Customer_392,Enterprise,West,Retail,2199,Direct Sales,Quarterly,Inactive,2023-05-07
+C0393,Customer_393,SMB,West,Manufacturing,985,Partner,Quarterly,Inactive,2023-06-18
+C0394,Customer_394,Enterprise,East,Manufacturing,4884,Online,Yearly,Active,2021-10-03
+C0395,Customer_395,Enterprise,South,Healthcare,1008,Online,Quarterly,Active,2022-11-12
+C0396,Customer_396,SMB,West,Manufacturing,1179,Direct Sales,Quarterly,Inactive,2021-01-15
+C0397,Customer_397,SMB,South,Manufacturing,1416,Partner,Quarterly,Active,2021-01-18
+C0398,Customer_398,SMB,West,Manufacturing,489,Partner,Monthly,Inactive,2020-10-06
+C0399,Customer_399,Enterprise,West,Manufacturing,4190,Direct Sales,Quarterly,Inactive,2023-11-03
+C0400,Customer_400,SMB,West,Tech,4053,Online,Monthly,Active,2024-06-17
+C0401,Customer_401,Enterprise,East,Retail,2301,Online,Yearly,Inactive,2020-12-10
+C0402,Customer_402,SMB,West,Manufacturing,4234,Online,Yearly,Active,2021-07-02
+C0403,Customer_403,Mid-Market,East,Manufacturing,390,Direct Sales,Quarterly,Active,2022-05-20
+C0404,Customer_404,Enterprise,South,Healthcare,314,Partner,Quarterly,Inactive,2024-10-31
+C0405,Customer_405,Enterprise,West,Retail,1991,Online,Yearly,Inactive,2024-10-29
+C0406,Customer_406,Mid-Market,West,Finance,1190,Online,Monthly,Active,2023-03-13
+C0407,Customer_407,SMB,East,Manufacturing,4463,Online,Quarterly,Inactive,2021-08-15
+C0408,Customer_408,Mid-Market,East,Manufacturing,830,Online,Quarterly,Active,2021-07-21
+C0409,Customer_409,Mid-Market,South,Finance,2095,Online,Yearly,Inactive,2024-08-23
+C0410,Customer_410,Enterprise,West,Tech,1214,Direct Sales,Yearly,Inactive,2023-07-09
+C0411,Customer_411,SMB,West,Tech,668,Direct Sales,Monthly,Inactive,2022-11-21
+C0412,Customer_412,Mid-Market,East,Healthcare,3774,Partner,Quarterly,Active,2024-11-14
+C0413,Customer_413,Mid-Market,North,Tech,2984,Online,Yearly,Inactive,2021-03-22
+C0414,Customer_414,SMB,South,Tech,2249,Partner,Quarterly,Inactive,2023-01-25
+C0415,Customer_415,Mid-Market,South,Manufacturing,4025,Partner,Yearly,Active,2020-04-04
+C0416,Customer_416,Enterprise,West,Retail,1067,Online,Quarterly,Inactive,2020-01-02
+C0417,Customer_417,SMB,South,Finance,2522,Online,Quarterly,Active,2023-09-02
+C0418,Customer_418,SMB,East,Retail,3096,Direct Sales,Yearly,Active,2020-04-16
+C0419,Customer_419,SMB,East,Finance,3566,Direct Sales,Monthly,Active,2020-01-03
+C0420,Customer_420,Enterprise,West,Retail,1137,Direct Sales,Monthly,Inactive,2020-01-20
+C0421,Customer_421,Enterprise,East,Retail,3509,Direct Sales,Monthly,Inactive,2020-05-25
+C0422,Customer_422,Enterprise,West,Retail,889,Online,Quarterly,Inactive,2024-12-09
+C0423,Customer_423,SMB,South,Tech,1140,Direct Sales,Yearly,Active,2020-05-20
+C0424,Customer_424,Mid-Market,North,Manufacturing,1394,Partner,Quarterly,Active,2023-07-10
+C0425,Customer_425,Mid-Market,South,Tech,3674,Online,Monthly,Active,2020-10-13
+C0426,Customer_426,Enterprise,West,Healthcare,3567,Partner,Monthly,Active,2021-07-21
+C0427,Customer_427,Mid-Market,North,Finance,4583,Direct Sales,Yearly,Inactive,2024-05-14
+C0428,Customer_428,Mid-Market,North,Healthcare,1733,Direct Sales,Yearly,Active,2024-03-11
+C0429,Customer_429,SMB,East,Retail,2010,Partner,Quarterly,Active,2021-05-08
+C0430,Customer_430,SMB,North,Manufacturing,148,Partner,Quarterly,Active,2022-03-03
+C0431,Customer_431,Mid-Market,West,Healthcare,4525,Direct Sales,Monthly,Inactive,2025-05-08
+C0432,Customer_432,Enterprise,North,Manufacturing,603,Online,Quarterly,Active,2020-03-22
+C0433,Customer_433,Enterprise,West,Manufacturing,2396,Direct Sales,Yearly,Inactive,2022-05-17
+C0434,Customer_434,Mid-Market,West,Retail,4445,Direct Sales,Yearly,Active,2021-07-22
+C0435,Customer_435,Enterprise,East,Retail,4238,Online,Monthly,Inactive,2022-03-11
+C0436,Customer_436,Mid-Market,North,Healthcare,3633,Direct Sales,Monthly,Active,2021-05-15
+C0437,Customer_437,Enterprise,West,Retail,3764,Direct Sales,Yearly,Active,2021-09-25
+C0438,Customer_438,Mid-Market,South,Retail,153,Direct Sales,Monthly,Active,2020-12-01
+C0439,Customer_439,SMB,East,Manufacturing,4287,Direct Sales,Quarterly,Active,2022-01-31
+C0440,Customer_440,Enterprise,East,Retail,290,Partner,Quarterly,Inactive,2022-12-08
+C0441,Customer_441,Enterprise,East,Manufacturing,681,Partner,Quarterly,Inactive,2020-04-23
+C0442,Customer_442,SMB,South,Healthcare,1338,Partner,Monthly,Active,2021-04-12
+C0443,Customer_443,Mid-Market,North,Retail,150,Online,Monthly,Inactive,2022-01-15
+C0444,Customer_444,SMB,South,Finance,339,Direct Sales,Yearly,Inactive,2021-04-04
+C0445,Customer_445,SMB,South,Tech,2670,Partner,Monthly,Inactive,2020-09-01
+C0446,Customer_446,Mid-Market,North,Finance,1878,Direct Sales,Monthly,Inactive,2020-05-21
+C0447,Customer_447,SMB,East,Healthcare,2731,Online,Yearly,Inactive,2020-01-17
+C0448,Customer_448,SMB,South,Healthcare,4668,Partner,Yearly,Active,2022-08-08
+C0449,Customer_449,SMB,West,Finance,4527,Online,Monthly,Active,2025-03-24
+C0450,Customer_450,SMB,North,Finance,4486,Partner,Yearly,Active,2025-05-01
+C0451,Customer_451,SMB,North,Tech,2569,Online,Monthly,Active,2022-05-09
+C0452,Customer_452,SMB,North,Finance,2342,Online,Monthly,Active,2025-01-11
+C0453,Customer_453,Mid-Market,West,Healthcare,3805,Direct Sales,Monthly,Active,2022-11-01
+C0454,Customer_454,Enterprise,West,Retail,4898,Direct Sales,Monthly,Inactive,2023-09-18
+C0455,Customer_455,Enterprise,South,Healthcare,2188,Partner,Quarterly,Inactive,2021-10-13
+C0456,Customer_456,SMB,East,Finance,661,Online,Monthly,Active,2020-11-14
+C0457,Customer_457,Enterprise,South,Tech,3867,Partner,Quarterly,Active,2023-01-02
+C0458,Customer_458,SMB,South,Tech,2575,Partner,Quarterly,Active,2020-07-04
+C0459,Customer_459,Enterprise,East,Manufacturing,380,Online,Quarterly,Active,2020-07-05
+C0460,Customer_460,Mid-Market,South,Healthcare,3296,Direct Sales,Monthly,Inactive,2021-06-16
+C0461,Customer_461,Enterprise,North,Tech,3754,Direct Sales,Yearly,Active,2020-07-12
+C0462,Customer_462,SMB,North,Finance,1044,Online,Monthly,Active,2020-09-24
+C0463,Customer_463,Enterprise,West,Healthcare,738,Direct Sales,Yearly,Inactive,2025-02-21
+C0464,Customer_464,Enterprise,North,Retail,1669,Direct Sales,Quarterly,Active,2020-07-07
+C0465,Customer_465,SMB,North,Retail,3826,Online,Monthly,Inactive,2024-08-09
+C0466,Customer_466,Mid-Market,West,Tech,291,Partner,Yearly,Inactive,2020-12-19
+C0467,Customer_467,SMB,South,Finance,2302,Partner,Quarterly,Active,2020-03-11
+C0468,Customer_468,Mid-Market,South,Healthcare,4136,Partner,Yearly,Inactive,2020-05-04
+C0469,Customer_469,Enterprise,East,Tech,1174,Partner,Monthly,Active,2023-07-15
+C0470,Customer_470,Mid-Market,North,Tech,2991,Partner,Yearly,Inactive,2021-12-05
+C0471,Customer_471,Mid-Market,East,Tech,2265,Online,Monthly,Inactive,2023-05-07
+C0472,Customer_472,Enterprise,North,Healthcare,529,Partner,Yearly,Inactive,2024-04-19
+C0473,Customer_473,Mid-Market,South,Finance,870,Online,Yearly,Active,2021-06-29
+C0474,Customer_474,Mid-Market,North,Finance,4766,Partner,Quarterly,Active,2020-12-26
+C0475,Customer_475,Enterprise,East,Healthcare,4896,Online,Yearly,Inactive,2025-04-24
+C0476,Customer_476,Mid-Market,South,Manufacturing,1592,Partner,Yearly,Inactive,2020-12-25
+C0477,Customer_477,SMB,North,Retail,510,Online,Yearly,Active,2020-02-10
+C0478,Customer_478,Mid-Market,West,Retail,2767,Direct Sales,Monthly,Active,2021-11-28
+C0479,Customer_479,Mid-Market,South,Healthcare,537,Online,Monthly,Active,2024-05-04
+C0480,Customer_480,Enterprise,East,Retail,3110,Direct Sales,Yearly,Inactive,2023-04-15
+C0481,Customer_481,Enterprise,East,Healthcare,2692,Online,Monthly,Inactive,2024-06-09
+C0482,Customer_482,Mid-Market,West,Healthcare,1477,Direct Sales,Yearly,Inactive,2021-04-02
+C0483,Customer_483,Mid-Market,South,Tech,2563,Direct Sales,Yearly,Inactive,2020-09-17
+C0484,Customer_484,Enterprise,North,Manufacturing,3257,Direct Sales,Monthly,Active,2023-05-18
+C0485,Customer_485,SMB,South,Manufacturing,902,Partner,Monthly,Inactive,2024-03-06
+C0486,Customer_486,Enterprise,South,Healthcare,2667,Online,Yearly,Active,2024-08-09
+C0487,Customer_487,Mid-Market,East,Tech,143,Partner,Monthly,Active,2023-11-20
+C0488,Customer_488,Enterprise,East,Healthcare,935,Direct Sales,Monthly,Active,2022-03-01
+C0489,Customer_489,SMB,West,Finance,3441,Partner,Quarterly,Inactive,2023-01-23
+C0490,Customer_490,SMB,North,Tech,4785,Direct Sales,Yearly,Active,2020-11-29
+C0491,Customer_491,SMB,North,Retail,2465,Online,Quarterly,Inactive,2025-05-03
+C0492,Customer_492,Enterprise,North,Healthcare,1443,Partner,Monthly,Active,2023-01-25
+C0493,Customer_493,Enterprise,East,Manufacturing,4004,Direct Sales,Monthly,Inactive,2025-04-14
+C0494,Customer_494,Mid-Market,South,Manufacturing,3606,Online,Monthly,Active,2021-11-09
+C0495,Customer_495,Enterprise,South,Tech,4589,Direct Sales,Yearly,Inactive,2023-09-14
+C0496,Customer_496,SMB,East,Finance,835,Online,Quarterly,Inactive,2020-11-10
+C0497,Customer_497,Enterprise,East,Retail,3552,Online,Quarterly,Inactive,2021-02-12
+C0498,Customer_498,Enterprise,North,Finance,1449,Direct Sales,Quarterly,Active,2022-08-27
+C0499,Customer_499,Enterprise,East,Tech,3907,Partner,Yearly,Inactive,2020-07-05
+C0500,Customer_500,Mid-Market,West,Finance,3089,Partner,Quarterly,Active,2022-07-01
+C0501,Customer_501,Enterprise,East,Tech,3859,Partner,Monthly,Inactive,2023-03-01
+C0502,Customer_502,Enterprise,South,Retail,752,Direct Sales,Quarterly,Inactive,2025-06-11
+C0503,Customer_503,Mid-Market,South,Manufacturing,549,Partner,Yearly,Inactive,2025-05-31
+C0504,Customer_504,Mid-Market,West,Manufacturing,1980,Partner,Quarterly,Active,2022-03-19
+C0505,Customer_505,Mid-Market,North,Manufacturing,4729,Direct Sales,Yearly,Active,2020-09-03
+C0506,Customer_506,SMB,South,Finance,1785,Online,Monthly,Active,2022-05-17
+C0507,Customer_507,Enterprise,West,Finance,1261,Direct Sales,Quarterly,Inactive,2025-02-08
+C0508,Customer_508,Mid-Market,North,Retail,3229,Direct Sales,Quarterly,Inactive,2024-10-20
+C0509,Customer_509,SMB,West,Retail,4863,Direct Sales,Quarterly,Active,2022-04-28
+C0510,Customer_510,Enterprise,South,Manufacturing,4866,Direct Sales,Monthly,Active,2023-02-26
+C0511,Customer_511,Enterprise,East,Manufacturing,2866,Partner,Quarterly,Inactive,2023-09-03
+C0512,Customer_512,SMB,West,Retail,1460,Partner,Quarterly,Active,2023-06-20
+C0513,Customer_513,Mid-Market,West,Retail,3292,Partner,Yearly,Active,2020-04-10
+C0514,Customer_514,Mid-Market,West,Healthcare,3101,Online,Quarterly,Inactive,2021-09-28
+C0515,Customer_515,SMB,West,Retail,1917,Online,Quarterly,Inactive,2024-05-04
+C0516,Customer_516,SMB,East,Tech,781,Online,Quarterly,Active,2025-02-13
+C0517,Customer_517,SMB,West,Manufacturing,3113,Online,Yearly,Active,2020-05-14
+C0518,Customer_518,SMB,West,Finance,4344,Direct Sales,Monthly,Active,2021-01-29
+C0519,Customer_519,Enterprise,North,Finance,320,Partner,Monthly,Inactive,2023-12-14
+C0520,Customer_520,Enterprise,East,Healthcare,3852,Direct Sales,Quarterly,Active,2023-10-27
+C0521,Customer_521,Enterprise,South,Healthcare,4054,Direct Sales,Quarterly,Active,2025-05-21
+C0522,Customer_522,SMB,East,Healthcare,1389,Partner,Yearly,Active,2021-08-06
+C0523,Customer_523,Enterprise,West,Retail,1384,Direct Sales,Monthly,Active,2023-08-18
+C0524,Customer_524,Enterprise,South,Healthcare,3404,Direct Sales,Monthly,Active,2022-08-28
+C0525,Customer_525,Enterprise,South,Manufacturing,119,Online,Quarterly,Inactive,2023-12-30
+C0526,Customer_526,Mid-Market,East,Tech,3134,Partner,Quarterly,Inactive,2021-03-22
+C0527,Customer_527,SMB,East,Manufacturing,3303,Direct Sales,Monthly,Active,2022-11-13
+C0528,Customer_528,Mid-Market,East,Manufacturing,4914,Direct Sales,Quarterly,Inactive,2023-11-02
+C0529,Customer_529,Enterprise,West,Retail,2804,Partner,Yearly,Inactive,2024-10-30
+C0530,Customer_530,SMB,East,Healthcare,1593,Online,Yearly,Active,2025-01-16
+C0531,Customer_531,Enterprise,West,Healthcare,1196,Direct Sales,Monthly,Inactive,2021-08-28
+C0532,Customer_532,SMB,West,Tech,3230,Direct Sales,Monthly,Active,2021-12-03
+C0533,Customer_533,Mid-Market,South,Manufacturing,3947,Direct Sales,Quarterly,Inactive,2024-09-27
+C0534,Customer_534,Enterprise,South,Healthcare,849,Partner,Monthly,Inactive,2024-01-25
+C0535,Customer_535,Mid-Market,South,Healthcare,781,Online,Quarterly,Active,2024-03-04
+C0536,Customer_536,SMB,West,Healthcare,3094,Partner,Yearly,Inactive,2022-08-07
+C0537,Customer_537,Enterprise,West,Retail,4830,Direct Sales,Yearly,Active,2022-08-25
+C0538,Customer_538,Enterprise,North,Tech,4390,Partner,Quarterly,Active,2024-11-18
+C0539,Customer_539,Enterprise,South,Finance,2857,Partner,Yearly,Inactive,2020-10-20
+C0540,Customer_540,SMB,South,Retail,4044,Partner,Yearly,Active,2021-10-03
+C0541,Customer_541,Mid-Market,North,Retail,3753,Partner,Monthly,Active,2023-03-26
+C0542,Customer_542,Enterprise,West,Retail,1110,Direct Sales,Quarterly,Inactive,2022-04-06
+C0543,Customer_543,SMB,West,Tech,88,Online,Yearly,Active,2024-02-05
+C0544,Customer_544,SMB,North,Healthcare,4400,Online,Monthly,Active,2023-07-07
+C0545,Customer_545,Mid-Market,South,Finance,2870,Partner,Monthly,Active,2022-02-24
+C0546,Customer_546,Mid-Market,East,Finance,584,Online,Quarterly,Inactive,2022-07-22
+C0547,Customer_547,Mid-Market,East,Tech,1146,Partner,Quarterly,Inactive,2024-03-16
+C0548,Customer_548,Enterprise,South,Tech,206,Online,Monthly,Active,2021-03-08
+C0549,Customer_549,Mid-Market,North,Manufacturing,4183,Online,Monthly,Inactive,2023-12-27
+C0550,Customer_550,Mid-Market,North,Tech,2145,Direct Sales,Yearly,Active,2023-05-01
+C0551,Customer_551,Enterprise,North,Retail,445,Direct Sales,Monthly,Inactive,2022-06-28
+C0552,Customer_552,SMB,North,Manufacturing,2120,Partner,Yearly,Active,2021-02-24
+C0553,Customer_553,Mid-Market,North,Healthcare,3497,Direct Sales,Monthly,Inactive,2023-06-29
+C0554,Customer_554,Mid-Market,South,Tech,909,Direct Sales,Yearly,Active,2021-08-01
+C0555,Customer_555,Enterprise,North,Tech,1677,Direct Sales,Monthly,Inactive,2024-08-29
+C0556,Customer_556,Mid-Market,South,Healthcare,3406,Partner,Monthly,Active,2023-01-27
+C0557,Customer_557,SMB,South,Tech,2758,Online,Monthly,Active,2023-10-07
+C0558,Customer_558,Enterprise,North,Manufacturing,4097,Online,Monthly,Active,2024-01-21
+C0559,Customer_559,Mid-Market,North,Healthcare,1943,Partner,Quarterly,Inactive,2022-08-08
+C0560,Customer_560,Enterprise,North,Finance,373,Partner,Quarterly,Inactive,2022-05-22
+C0561,Customer_561,Mid-Market,North,Retail,425,Online,Monthly,Active,2021-11-04
+C0562,Customer_562,SMB,West,Manufacturing,2247,Direct Sales,Monthly,Inactive,2024-07-27
+C0563,Customer_563,SMB,South,Retail,3333,Partner,Quarterly,Inactive,2024-09-07
+C0564,Customer_564,SMB,West,Tech,1416,Online,Monthly,Active,2025-04-14
+C0565,Customer_565,Enterprise,North,Tech,4889,Partner,Yearly,Inactive,2021-01-06
+C0566,Customer_566,Mid-Market,West,Healthcare,286,Direct Sales,Yearly,Active,2022-09-16
+C0567,Customer_567,SMB,North,Tech,3660,Online,Monthly,Inactive,2023-09-03
+C0568,Customer_568,SMB,North,Manufacturing,4773,Direct Sales,Yearly,Active,2025-05-11
+C0569,Customer_569,Mid-Market,East,Manufacturing,4335,Direct Sales,Yearly,Active,2022-06-05
+C0570,Customer_570,Mid-Market,South,Tech,2882,Direct Sales,Yearly,Inactive,2020-10-31
+C0571,Customer_571,Mid-Market,North,Retail,1335,Direct Sales,Quarterly,Inactive,2024-11-15
+C0572,Customer_572,Enterprise,North,Tech,2676,Online,Quarterly,Inactive,2020-04-13
+C0573,Customer_573,Mid-Market,South,Manufacturing,3151,Partner,Monthly,Active,2022-07-29
+C0574,Customer_574,SMB,West,Retail,4133,Partner,Quarterly,Active,2022-10-15
+C0575,Customer_575,Mid-Market,North,Retail,3354,Partner,Monthly,Active,2024-08-18
+C0576,Customer_576,Enterprise,East,Manufacturing,4656,Online,Yearly,Inactive,2025-04-30
+C0577,Customer_577,SMB,East,Retail,1876,Partner,Quarterly,Inactive,2024-01-07
+C0578,Customer_578,Mid-Market,East,Tech,984,Online,Yearly,Active,2020-01-05
+C0579,Customer_579,SMB,East,Healthcare,4536,Direct Sales,Quarterly,Active,2020-04-03
+C0580,Customer_580,Enterprise,West,Finance,3402,Online,Quarterly,Active,2021-01-19
+C0581,Customer_581,Enterprise,West,Finance,3794,Online,Yearly,Inactive,2020-08-08
+C0582,Customer_582,SMB,North,Manufacturing,1059,Partner,Quarterly,Active,2025-05-27
+C0583,Customer_583,SMB,North,Manufacturing,447,Direct Sales,Quarterly,Inactive,2025-03-08
+C0584,Customer_584,Mid-Market,South,Manufacturing,1472,Direct Sales,Monthly,Active,2022-03-04
+C0585,Customer_585,Mid-Market,East,Manufacturing,3201,Partner,Yearly,Active,2021-07-14
+C0586,Customer_586,SMB,East,Healthcare,3759,Online,Monthly,Inactive,2023-05-18
+C0587,Customer_587,Mid-Market,East,Manufacturing,2621,Direct Sales,Yearly,Active,2021-02-15
+C0588,Customer_588,Enterprise,East,Healthcare,1136,Direct Sales,Yearly,Active,2022-10-28
+C0589,Customer_589,Mid-Market,East,Retail,2935,Direct Sales,Quarterly,Inactive,2023-10-12
+C0590,Customer_590,Mid-Market,East,Tech,154,Direct Sales,Monthly,Active,2022-02-19
+C0591,Customer_591,Enterprise,North,Retail,1687,Partner,Monthly,Inactive,2023-10-31
+C0592,Customer_592,SMB,South,Retail,2467,Online,Yearly,Active,2022-01-04
+C0593,Customer_593,SMB,North,Manufacturing,4652,Online,Yearly,Inactive,2021-05-01
+C0594,Customer_594,Mid-Market,East,Retail,3175,Partner,Quarterly,Inactive,2025-06-01
+C0595,Customer_595,Mid-Market,North,Retail,2108,Online,Yearly,Inactive,2024-08-26
+C0596,Customer_596,Enterprise,East,Manufacturing,4527,Direct Sales,Yearly,Active,2024-05-08
+C0597,Customer_597,Mid-Market,South,Healthcare,3726,Online,Yearly,Active,2021-01-17
+C0598,Customer_598,Enterprise,North,Tech,382,Partner,Quarterly,Inactive,2020-09-23
+C0599,Customer_599,Enterprise,East,Retail,2757,Partner,Yearly,Active,2020-03-22
+C0600,Customer_600,Enterprise,East,Manufacturing,466,Direct Sales,Yearly,Inactive,2022-10-01
+C0601,Customer_601,Mid-Market,East,Retail,2653,Direct Sales,Monthly,Active,2022-12-02
+C0602,Customer_602,Enterprise,South,Tech,4498,Direct Sales,Quarterly,Active,2021-12-16
+C0603,Customer_603,Enterprise,South,Healthcare,2762,Partner,Quarterly,Active,2025-04-30
+C0604,Customer_604,Mid-Market,West,Manufacturing,122,Online,Yearly,Inactive,2022-07-01
+C0605,Customer_605,Enterprise,South,Retail,2679,Partner,Monthly,Inactive,2021-06-09
+C0606,Customer_606,Mid-Market,East,Retail,4284,Partner,Yearly,Inactive,2022-09-23
+C0607,Customer_607,Enterprise,East,Finance,2674,Direct Sales,Monthly,Active,2020-12-08
+C0608,Customer_608,Mid-Market,North,Retail,1776,Direct Sales,Yearly,Active,2024-11-06
+C0609,Customer_609,Mid-Market,West,Retail,1734,Direct Sales,Yearly,Inactive,2023-08-17
+C0610,Customer_610,Enterprise,South,Retail,3811,Direct Sales,Quarterly,Active,2020-06-28
+C0611,Customer_611,Enterprise,North,Finance,2113,Direct Sales,Monthly,Active,2025-02-08
+C0612,Customer_612,SMB,West,Tech,3745,Direct Sales,Quarterly,Inactive,2021-10-09
+C0613,Customer_613,Enterprise,West,Retail,4431,Online,Yearly,Active,2024-03-28
+C0614,Customer_614,Mid-Market,North,Retail,2980,Direct Sales,Monthly,Inactive,2024-05-30
+C0615,Customer_615,Mid-Market,East,Manufacturing,758,Partner,Quarterly,Inactive,2022-03-20
+C0616,Customer_616,Mid-Market,North,Tech,1330,Direct Sales,Monthly,Active,2024-03-09
+C0617,Customer_617,SMB,East,Finance,2491,Direct Sales,Yearly,Inactive,2025-05-14
+C0618,Customer_618,Enterprise,South,Retail,392,Online,Yearly,Inactive,2023-01-05
+C0619,Customer_619,Mid-Market,North,Healthcare,1770,Direct Sales,Yearly,Inactive,2021-03-09
+C0620,Customer_620,SMB,South,Finance,1557,Online,Yearly,Inactive,2021-02-01
+C0621,Customer_621,Enterprise,South,Manufacturing,495,Direct Sales,Quarterly,Active,2021-08-18
+C0622,Customer_622,Mid-Market,North,Healthcare,854,Online,Yearly,Inactive,2025-05-02
+C0623,Customer_623,SMB,East,Finance,1971,Online,Quarterly,Active,2025-01-17
+C0624,Customer_624,Enterprise,East,Tech,3741,Partner,Yearly,Inactive,2023-11-21
+C0625,Customer_625,Mid-Market,South,Manufacturing,4693,Partner,Quarterly,Inactive,2020-12-11
+C0626,Customer_626,Enterprise,East,Finance,1864,Direct Sales,Yearly,Inactive,2021-07-20
+C0627,Customer_627,SMB,South,Healthcare,3981,Partner,Quarterly,Inactive,2024-05-05
+C0628,Customer_628,SMB,West,Manufacturing,941,Online,Yearly,Active,2024-09-19
+C0629,Customer_629,SMB,South,Manufacturing,1659,Partner,Yearly,Active,2024-01-29
+C0630,Customer_630,Enterprise,North,Manufacturing,305,Direct Sales,Yearly,Inactive,2024-04-24
+C0631,Customer_631,Mid-Market,South,Retail,4568,Partner,Yearly,Inactive,2023-09-01
+C0632,Customer_632,Enterprise,East,Tech,1879,Direct Sales,Yearly,Inactive,2020-10-01
+C0633,Customer_633,SMB,North,Tech,3030,Direct Sales,Monthly,Active,2024-10-02
+C0634,Customer_634,Mid-Market,South,Manufacturing,1199,Partner,Monthly,Active,2023-03-05
+C0635,Customer_635,Mid-Market,South,Tech,2989,Online,Monthly,Inactive,2021-04-19
+C0636,Customer_636,Enterprise,East,Healthcare,1967,Online,Yearly,Active,2022-11-26
+C0637,Customer_637,SMB,West,Tech,3774,Online,Monthly,Inactive,2020-07-30
+C0638,Customer_638,Mid-Market,East,Healthcare,4790,Direct Sales,Yearly,Active,2022-02-10
+C0639,Customer_639,Mid-Market,West,Healthcare,4864,Direct Sales,Monthly,Inactive,2022-02-09
+C0640,Customer_640,Enterprise,West,Healthcare,2876,Partner,Quarterly,Active,2022-10-24
+C0641,Customer_641,Enterprise,West,Finance,1934,Online,Yearly,Inactive,2021-03-09
+C0642,Customer_642,Enterprise,South,Finance,3017,Direct Sales,Yearly,Active,2023-09-15
+C0643,Customer_643,Enterprise,West,Healthcare,978,Partner,Yearly,Inactive,2022-09-08
+C0644,Customer_644,Enterprise,South,Tech,233,Online,Monthly,Active,2023-03-20
+C0645,Customer_645,Mid-Market,South,Finance,4249,Online,Yearly,Active,2020-04-24
+C0646,Customer_646,Enterprise,East,Finance,4282,Partner,Yearly,Active,2024-12-04
+C0647,Customer_647,Mid-Market,East,Retail,1824,Partner,Yearly,Inactive,2024-11-11
+C0648,Customer_648,SMB,South,Finance,3415,Direct Sales,Monthly,Active,2023-06-30
+C0649,Customer_649,Mid-Market,East,Finance,2857,Partner,Yearly,Active,2021-04-15
+C0650,Customer_650,SMB,West,Finance,939,Online,Monthly,Inactive,2024-08-19
+C0651,Customer_651,Enterprise,North,Finance,3948,Direct Sales,Yearly,Active,2024-12-02
+C0652,Customer_652,Mid-Market,North,Retail,4000,Direct Sales,Monthly,Active,2025-01-10
+C0653,Customer_653,Mid-Market,West,Manufacturing,3496,Partner,Monthly,Inactive,2021-04-14
+C0654,Customer_654,SMB,West,Healthcare,4875,Direct Sales,Yearly,Active,2022-05-21
+C0655,Customer_655,Enterprise,East,Tech,1954,Online,Quarterly,Inactive,2021-06-11
+C0656,Customer_656,Enterprise,North,Retail,4784,Direct Sales,Monthly,Active,2022-02-07
+C0657,Customer_657,Mid-Market,South,Healthcare,3399,Partner,Monthly,Active,2022-05-22
+C0658,Customer_658,Mid-Market,East,Healthcare,4441,Partner,Yearly,Inactive,2023-06-07
+C0659,Customer_659,SMB,West,Finance,3435,Direct Sales,Yearly,Inactive,2021-01-01
+C0660,Customer_660,SMB,West,Healthcare,2562,Direct Sales,Quarterly,Inactive,2024-02-15
+C0661,Customer_661,Enterprise,North,Finance,3708,Direct Sales,Monthly,Active,2021-03-15
+C0662,Customer_662,Mid-Market,West,Healthcare,4560,Direct Sales,Yearly,Active,2020-11-25
+C0663,Customer_663,SMB,North,Retail,1240,Partner,Yearly,Inactive,2020-06-29
+C0664,Customer_664,Enterprise,East,Finance,3087,Online,Yearly,Active,2024-01-23
+C0665,Customer_665,SMB,West,Manufacturing,4318,Partner,Yearly,Active,2025-04-20
+C0666,Customer_666,Enterprise,West,Tech,137,Online,Yearly,Inactive,2021-02-02
+C0667,Customer_667,Enterprise,South,Manufacturing,1438,Direct Sales,Monthly,Inactive,2021-05-04
+C0668,Customer_668,Mid-Market,North,Finance,761,Partner,Quarterly,Inactive,2023-10-03
+C0669,Customer_669,SMB,West,Manufacturing,1690,Direct Sales,Monthly,Active,2025-02-25
+C0670,Customer_670,Enterprise,East,Manufacturing,4825,Partner,Quarterly,Inactive,2021-04-08
+C0671,Customer_671,Mid-Market,South,Tech,3359,Direct Sales,Monthly,Inactive,2020-12-24
+C0672,Customer_672,SMB,North,Manufacturing,642,Direct Sales,Quarterly,Inactive,2025-04-23
+C0673,Customer_673,Enterprise,East,Manufacturing,4759,Partner,Yearly,Inactive,2025-06-01
+C0674,Customer_674,SMB,West,Finance,2832,Partner,Yearly,Inactive,2025-01-10
+C0675,Customer_675,Mid-Market,North,Tech,1002,Partner,Monthly,Inactive,2023-07-21
+C0676,Customer_676,Enterprise,South,Healthcare,3428,Partner,Yearly,Active,2023-12-06
+C0677,Customer_677,SMB,South,Healthcare,811,Partner,Yearly,Inactive,2020-06-04
+C0678,Customer_678,Mid-Market,South,Tech,2621,Partner,Monthly,Inactive,2021-01-09
+C0679,Customer_679,Mid-Market,South,Tech,1685,Online,Yearly,Active,2024-11-22
+C0680,Customer_680,SMB,South,Finance,1711,Online,Yearly,Inactive,2020-11-15
+C0681,Customer_681,Enterprise,North,Retail,4085,Direct Sales,Monthly,Active,2024-10-02
+C0682,Customer_682,SMB,East,Manufacturing,2633,Partner,Yearly,Inactive,2022-10-02
+C0683,Customer_683,Enterprise,East,Tech,1869,Direct Sales,Monthly,Active,2022-12-12
+C0684,Customer_684,SMB,West,Manufacturing,316,Direct Sales,Quarterly,Inactive,2024-10-28
+C0685,Customer_685,Mid-Market,South,Tech,1036,Direct Sales,Yearly,Inactive,2021-10-08
+C0686,Customer_686,Mid-Market,North,Retail,1776,Partner,Yearly,Active,2021-10-28
+C0687,Customer_687,SMB,East,Finance,4543,Partner,Monthly,Inactive,2022-08-23
+C0688,Customer_688,Mid-Market,East,Healthcare,1556,Partner,Quarterly,Active,2022-05-08
+C0689,Customer_689,Mid-Market,East,Healthcare,3331,Partner,Quarterly,Active,2023-03-16
+C0690,Customer_690,Enterprise,South,Retail,2261,Online,Yearly,Inactive,2024-10-19
+C0691,Customer_691,SMB,South,Finance,1275,Partner,Monthly,Active,2022-05-13
+C0692,Customer_692,SMB,South,Manufacturing,4424,Direct Sales,Quarterly,Inactive,2021-09-06
+C0693,Customer_693,SMB,North,Tech,860,Direct Sales,Monthly,Active,2021-03-17
+C0694,Customer_694,SMB,West,Retail,3735,Direct Sales,Quarterly,Inactive,2022-01-09
+C0695,Customer_695,SMB,East,Healthcare,212,Partner,Monthly,Inactive,2024-11-11
+C0696,Customer_696,Mid-Market,South,Manufacturing,4767,Direct Sales,Yearly,Active,2024-05-17
+C0697,Customer_697,SMB,East,Healthcare,4231,Partner,Yearly,Inactive,2024-12-26
+C0698,Customer_698,Enterprise,West,Manufacturing,2397,Partner,Yearly,Active,2024-11-13
+C0699,Customer_699,Enterprise,East,Tech,4732,Partner,Monthly,Active,2020-11-27
+C0700,Customer_700,SMB,South,Healthcare,2645,Direct Sales,Quarterly,Inactive,2023-05-24
+C0701,Customer_701,Mid-Market,West,Healthcare,3694,Partner,Yearly,Inactive,2022-04-27
+C0702,Customer_702,Enterprise,South,Retail,1074,Direct Sales,Monthly,Inactive,2025-04-10
+C0703,Customer_703,Mid-Market,North,Finance,1417,Partner,Monthly,Active,2020-05-10
+C0704,Customer_704,SMB,North,Retail,3302,Direct Sales,Monthly,Active,2021-06-21
+C0705,Customer_705,Mid-Market,South,Retail,3243,Partner,Monthly,Active,2024-02-19
+C0706,Customer_706,SMB,West,Finance,1125,Direct Sales,Monthly,Active,2020-03-12
+C0707,Customer_707,Mid-Market,East,Healthcare,3950,Partner,Yearly,Inactive,2023-01-28
+C0708,Customer_708,SMB,South,Manufacturing,1500,Direct Sales,Yearly,Inactive,2023-07-16
+C0709,Customer_709,Mid-Market,West,Manufacturing,4422,Partner,Quarterly,Inactive,2023-01-10
+C0710,Customer_710,Enterprise,North,Tech,2572,Partner,Quarterly,Inactive,2020-11-14
+C0711,Customer_711,SMB,North,Retail,4337,Online,Quarterly,Inactive,2022-08-18
+C0712,Customer_712,Mid-Market,North,Tech,3958,Partner,Monthly,Inactive,2024-06-22
+C0713,Customer_713,SMB,South,Retail,4540,Partner,Monthly,Inactive,2024-12-11
+C0714,Customer_714,Mid-Market,West,Tech,2097,Online,Yearly,Inactive,2024-08-23
+C0715,Customer_715,SMB,South,Healthcare,698,Partner,Yearly,Active,2022-11-24
+C0716,Customer_716,Mid-Market,East,Healthcare,4407,Partner,Quarterly,Active,2024-10-13
+C0717,Customer_717,Enterprise,South,Finance,2422,Online,Yearly,Inactive,2023-06-19
+C0718,Customer_718,SMB,East,Manufacturing,4080,Online,Quarterly,Active,2020-11-07
+C0719,Customer_719,Enterprise,North,Finance,887,Partner,Quarterly,Active,2024-01-04
+C0720,Customer_720,SMB,North,Finance,788,Online,Monthly,Inactive,2021-03-20
+C0721,Customer_721,SMB,West,Healthcare,4132,Partner,Quarterly,Active,2021-11-07
+C0722,Customer_722,Enterprise,South,Retail,2233,Partner,Monthly,Inactive,2021-01-06
+C0723,Customer_723,Enterprise,East,Tech,153,Online,Yearly,Active,2022-02-27
+C0724,Customer_724,SMB,South,Retail,1681,Partner,Yearly,Active,2022-12-03
+C0725,Customer_725,Mid-Market,South,Tech,3237,Direct Sales,Quarterly,Inactive,2020-11-20
+C0726,Customer_726,Mid-Market,North,Manufacturing,4317,Online,Quarterly,Inactive,2023-07-31
+C0727,Customer_727,SMB,South,Healthcare,476,Direct Sales,Monthly,Active,2021-04-28
+C0728,Customer_728,Mid-Market,West,Healthcare,173,Online,Quarterly,Active,2022-03-21
+C0729,Customer_729,Enterprise,North,Retail,4810,Direct Sales,Quarterly,Active,2022-01-30
+C0730,Customer_730,Enterprise,South,Finance,4145,Online,Yearly,Inactive,2025-03-21
+C0731,Customer_731,Mid-Market,North,Retail,2962,Direct Sales,Monthly,Active,2020-09-14
+C0732,Customer_732,SMB,South,Healthcare,4624,Direct Sales,Quarterly,Inactive,2024-02-10
+C0733,Customer_733,Enterprise,North,Tech,2984,Direct Sales,Monthly,Inactive,2025-01-14
+C0734,Customer_734,Enterprise,West,Tech,4629,Partner,Yearly,Inactive,2021-01-23
+C0735,Customer_735,Mid-Market,South,Manufacturing,2898,Partner,Yearly,Inactive,2021-07-17
+C0736,Customer_736,Mid-Market,South,Retail,4401,Online,Quarterly,Inactive,2024-08-05
+C0737,Customer_737,SMB,East,Tech,55,Direct Sales,Yearly,Inactive,2024-02-11
+C0738,Customer_738,Enterprise,North,Manufacturing,3032,Direct Sales,Monthly,Inactive,2024-01-16
+C0739,Customer_739,Enterprise,West,Finance,4343,Direct Sales,Quarterly,Active,2023-06-09
+C0740,Customer_740,SMB,East,Tech,2688,Online,Monthly,Active,2020-03-30
+C0741,Customer_741,Enterprise,South,Retail,1705,Online,Quarterly,Active,2020-07-21
+C0742,Customer_742,Enterprise,West,Tech,4357,Direct Sales,Yearly,Inactive,2020-04-10
+C0743,Customer_743,SMB,South,Manufacturing,630,Online,Monthly,Inactive,2025-03-16
+C0744,Customer_744,Enterprise,West,Retail,3006,Direct Sales,Yearly,Inactive,2024-08-10
+C0745,Customer_745,SMB,North,Manufacturing,2227,Direct Sales,Monthly,Active,2024-09-04
+C0746,Customer_746,SMB,North,Finance,4305,Online,Monthly,Active,2022-12-24
+C0747,Customer_747,SMB,South,Finance,4360,Direct Sales,Monthly,Active,2023-02-17
+C0748,Customer_748,Mid-Market,West,Retail,4773,Partner,Yearly,Inactive,2023-12-09
+C0749,Customer_749,Mid-Market,West,Retail,1416,Online,Yearly,Inactive,2022-10-30
+C0750,Customer_750,SMB,South,Manufacturing,4964,Partner,Quarterly,Inactive,2023-01-31
+C0751,Customer_751,SMB,East,Tech,3577,Direct Sales,Quarterly,Active,2023-02-27
+C0752,Customer_752,Mid-Market,South,Tech,4557,Direct Sales,Quarterly,Inactive,2025-05-23
+C0753,Customer_753,SMB,West,Tech,51,Direct Sales,Monthly,Inactive,2023-05-05
+C0754,Customer_754,Enterprise,South,Healthcare,103,Partner,Monthly,Active,2024-10-18
+C0755,Customer_755,SMB,North,Healthcare,4585,Direct Sales,Yearly,Active,2020-07-12
+C0756,Customer_756,Enterprise,West,Healthcare,1328,Online,Quarterly,Inactive,2024-12-26
+C0757,Customer_757,Mid-Market,South,Finance,2149,Partner,Monthly,Inactive,2023-03-11
+C0758,Customer_758,Enterprise,North,Healthcare,4002,Online,Quarterly,Active,2023-05-04
+C0759,Customer_759,Mid-Market,East,Retail,4770,Partner,Monthly,Active,2025-03-02
+C0760,Customer_760,SMB,East,Tech,3462,Online,Monthly,Active,2023-07-22
+C0761,Customer_761,Mid-Market,West,Retail,2546,Direct Sales,Monthly,Inactive,2023-01-10
+C0762,Customer_762,Mid-Market,South,Healthcare,4165,Direct Sales,Monthly,Active,2020-04-13
+C0763,Customer_763,Mid-Market,West,Tech,4925,Direct Sales,Yearly,Active,2021-03-30
+C0764,Customer_764,SMB,East,Tech,1262,Online,Quarterly,Active,2022-09-01
+C0765,Customer_765,Mid-Market,North,Manufacturing,3320,Partner,Monthly,Inactive,2022-10-24
+C0766,Customer_766,SMB,South,Finance,3989,Direct Sales,Monthly,Inactive,2022-03-20
+C0767,Customer_767,Mid-Market,South,Manufacturing,4344,Online,Monthly,Active,2021-06-29
+C0768,Customer_768,SMB,East,Manufacturing,783,Online,Yearly,Inactive,2022-05-17
+C0769,Customer_769,SMB,East,Finance,2677,Partner,Yearly,Active,2024-04-25
+C0770,Customer_770,SMB,South,Healthcare,3672,Direct Sales,Monthly,Inactive,2020-04-01
+C0771,Customer_771,Enterprise,South,Healthcare,1327,Direct Sales,Monthly,Active,2024-02-23
+C0772,Customer_772,Enterprise,South,Manufacturing,1259,Partner,Monthly,Inactive,2023-11-21
+C0773,Customer_773,Enterprise,East,Tech,3909,Online,Quarterly,Active,2024-02-24
+C0774,Customer_774,Mid-Market,South,Finance,4526,Direct Sales,Quarterly,Inactive,2023-06-29
+C0775,Customer_775,Mid-Market,South,Retail,3135,Direct Sales,Yearly,Active,2021-06-07
+C0776,Customer_776,Enterprise,North,Healthcare,1694,Direct Sales,Yearly,Inactive,2020-04-18
+C0777,Customer_777,SMB,North,Retail,3233,Direct Sales,Quarterly,Inactive,2024-11-05
+C0778,Customer_778,Enterprise,North,Healthcare,3216,Online,Quarterly,Active,2025-01-25
+C0779,Customer_779,SMB,West,Manufacturing,4404,Online,Monthly,Active,2022-10-22
+C0780,Customer_780,SMB,North,Retail,2076,Direct Sales,Quarterly,Inactive,2022-09-30
+C0781,Customer_781,SMB,South,Retail,2890,Direct Sales,Quarterly,Inactive,2023-07-04
+C0782,Customer_782,SMB,South,Manufacturing,2309,Online,Yearly,Inactive,2024-12-04
+C0783,Customer_783,SMB,North,Manufacturing,2345,Online,Monthly,Inactive,2025-01-11
+C0784,Customer_784,SMB,South,Retail,3181,Direct Sales,Yearly,Active,2022-05-04
+C0785,Customer_785,Enterprise,South,Tech,2609,Direct Sales,Quarterly,Inactive,2023-01-15
+C0786,Customer_786,Enterprise,South,Finance,4809,Direct Sales,Yearly,Active,2024-11-01
+C0787,Customer_787,Enterprise,East,Manufacturing,1157,Partner,Monthly,Active,2021-10-12
+C0788,Customer_788,Enterprise,North,Finance,2651,Online,Yearly,Active,2024-04-16
+C0789,Customer_789,SMB,West,Tech,2535,Partner,Yearly,Inactive,2020-11-07
+C0790,Customer_790,Enterprise,North,Finance,1563,Online,Yearly,Inactive,2023-05-25
+C0791,Customer_791,Mid-Market,South,Manufacturing,1952,Online,Yearly,Active,2022-01-05
+C0792,Customer_792,Enterprise,West,Finance,4165,Direct Sales,Quarterly,Inactive,2021-01-11
+C0793,Customer_793,SMB,West,Tech,1176,Online,Monthly,Active,2020-03-07
+C0794,Customer_794,SMB,North,Healthcare,3433,Online,Yearly,Active,2024-03-31
+C0795,Customer_795,Enterprise,North,Finance,3648,Direct Sales,Quarterly,Inactive,2024-11-10
+C0796,Customer_796,SMB,South,Tech,3366,Online,Yearly,Inactive,2024-01-14
+C0797,Customer_797,SMB,West,Manufacturing,4735,Direct Sales,Yearly,Active,2022-12-02
+C0798,Customer_798,Enterprise,West,Tech,397,Online,Yearly,Inactive,2024-02-14
+C0799,Customer_799,Enterprise,West,Manufacturing,453,Online,Quarterly,Inactive,2022-03-26
+C0800,Customer_800,SMB,East,Tech,1413,Partner,Quarterly,Active,2023-11-14
+C0801,Customer_801,Mid-Market,South,Tech,3750,Online,Yearly,Active,2021-01-03
+C0802,Customer_802,Mid-Market,South,Tech,3437,Partner,Quarterly,Active,2021-01-01
+C0803,Customer_803,SMB,South,Tech,788,Partner,Quarterly,Active,2024-01-11
+C0804,Customer_804,Mid-Market,North,Retail,985,Direct Sales,Quarterly,Inactive,2020-06-23
+C0805,Customer_805,Mid-Market,West,Manufacturing,1359,Partner,Yearly,Inactive,2020-03-30
+C0806,Customer_806,Enterprise,East,Manufacturing,1279,Online,Monthly,Active,2024-04-24
+C0807,Customer_807,Mid-Market,North,Tech,2573,Partner,Yearly,Inactive,2021-08-14
+C0808,Customer_808,Mid-Market,South,Retail,1127,Online,Monthly,Inactive,2020-01-26
+C0809,Customer_809,SMB,West,Tech,4502,Online,Yearly,Inactive,2021-05-02
+C0810,Customer_810,Enterprise,West,Tech,3409,Partner,Monthly,Active,2021-05-16
+C0811,Customer_811,Mid-Market,East,Manufacturing,4617,Online,Monthly,Active,2020-10-30
+C0812,Customer_812,Enterprise,East,Retail,1240,Online,Yearly,Inactive,2021-11-09
+C0813,Customer_813,Enterprise,North,Retail,3465,Online,Monthly,Inactive,2023-06-05
+C0814,Customer_814,Mid-Market,South,Tech,4792,Partner,Monthly,Active,2024-04-22
+C0815,Customer_815,SMB,East,Healthcare,3154,Online,Quarterly,Active,2021-08-22
+C0816,Customer_816,SMB,South,Retail,2298,Partner,Yearly,Inactive,2022-12-10
+C0817,Customer_817,Enterprise,South,Manufacturing,526,Online,Yearly,Active,2022-09-17
+C0818,Customer_818,Mid-Market,East,Tech,2642,Partner,Yearly,Inactive,2025-03-13
+C0819,Customer_819,Enterprise,West,Manufacturing,4127,Partner,Monthly,Active,2023-12-22
+C0820,Customer_820,SMB,South,Retail,1018,Online,Quarterly,Active,2024-02-19
+C0821,Customer_821,Enterprise,West,Tech,422,Partner,Quarterly,Active,2020-01-24
+C0822,Customer_822,Mid-Market,South,Healthcare,2134,Online,Quarterly,Inactive,2022-11-03
+C0823,Customer_823,Mid-Market,East,Retail,982,Direct Sales,Quarterly,Inactive,2022-03-22
+C0824,Customer_824,Mid-Market,North,Finance,1639,Partner,Quarterly,Inactive,2025-02-19
+C0825,Customer_825,SMB,North,Finance,3994,Online,Yearly,Inactive,2024-12-31
+C0826,Customer_826,Mid-Market,East,Tech,3441,Direct Sales,Monthly,Inactive,2023-03-03
+C0827,Customer_827,Mid-Market,East,Manufacturing,4439,Online,Monthly,Inactive,2024-06-25
+C0828,Customer_828,SMB,North,Finance,2347,Online,Quarterly,Inactive,2023-07-07
+C0829,Customer_829,Mid-Market,South,Manufacturing,3241,Online,Yearly,Active,2024-11-05
+C0830,Customer_830,SMB,East,Retail,2274,Partner,Monthly,Inactive,2024-12-01
+C0831,Customer_831,Enterprise,East,Tech,2529,Online,Yearly,Inactive,2020-12-24
+C0832,Customer_832,Enterprise,East,Retail,1705,Online,Quarterly,Active,2024-06-24
+C0833,Customer_833,SMB,South,Finance,2836,Partner,Yearly,Inactive,2024-05-07
+C0834,Customer_834,SMB,South,Retail,4278,Direct Sales,Monthly,Active,2024-01-23
+C0835,Customer_835,Enterprise,West,Tech,4329,Online,Monthly,Inactive,2025-03-24
+C0836,Customer_836,Enterprise,North,Healthcare,3874,Online,Monthly,Inactive,2020-02-16
+C0837,Customer_837,Mid-Market,East,Finance,2678,Online,Monthly,Inactive,2021-07-20
+C0838,Customer_838,Mid-Market,East,Tech,1013,Partner,Monthly,Active,2021-07-14
+C0839,Customer_839,Enterprise,North,Manufacturing,4634,Direct Sales,Monthly,Active,2023-01-16
+C0840,Customer_840,SMB,East,Healthcare,1209,Direct Sales,Quarterly,Active,2020-12-16
+C0841,Customer_841,Enterprise,East,Manufacturing,2824,Direct Sales,Quarterly,Active,2020-09-23
+C0842,Customer_842,Enterprise,West,Retail,917,Partner,Monthly,Active,2022-05-23
+C0843,Customer_843,SMB,South,Manufacturing,4905,Direct Sales,Yearly,Inactive,2023-06-16
+C0844,Customer_844,SMB,East,Healthcare,1673,Direct Sales,Yearly,Active,2025-06-17
+C0845,Customer_845,SMB,South,Retail,3886,Online,Quarterly,Inactive,2023-11-02
+C0846,Customer_846,Mid-Market,West,Tech,1948,Online,Monthly,Inactive,2025-02-12
+C0847,Customer_847,SMB,West,Finance,2756,Partner,Quarterly,Inactive,2020-03-02
+C0848,Customer_848,Enterprise,West,Retail,2929,Partner,Quarterly,Active,2021-08-01
+C0849,Customer_849,SMB,South,Manufacturing,893,Partner,Yearly,Active,2021-10-29
+C0850,Customer_850,Mid-Market,North,Healthcare,4414,Partner,Quarterly,Inactive,2021-05-03
+C0851,Customer_851,Mid-Market,South,Manufacturing,1352,Partner,Quarterly,Active,2021-11-28
+C0852,Customer_852,Enterprise,West,Tech,4696,Partner,Yearly,Active,2020-12-20
+C0853,Customer_853,Mid-Market,North,Manufacturing,4036,Online,Yearly,Inactive,2021-10-28
+C0854,Customer_854,Mid-Market,North,Tech,1493,Partner,Quarterly,Active,2023-05-10
+C0855,Customer_855,Enterprise,West,Healthcare,4099,Direct Sales,Yearly,Active,2020-07-04
+C0856,Customer_856,Enterprise,South,Manufacturing,51,Online,Yearly,Active,2022-07-16
+C0857,Customer_857,Mid-Market,East,Tech,4784,Partner,Monthly,Active,2023-10-27
+C0858,Customer_858,SMB,East,Manufacturing,2544,Partner,Yearly,Inactive,2020-07-01
+C0859,Customer_859,Mid-Market,North,Manufacturing,4231,Partner,Monthly,Inactive,2020-05-07
+C0860,Customer_860,SMB,North,Retail,4637,Partner,Monthly,Inactive,2024-11-07
+C0861,Customer_861,Enterprise,South,Tech,4884,Partner,Yearly,Inactive,2023-12-28
+C0862,Customer_862,SMB,West,Tech,3615,Direct Sales,Monthly,Active,2022-08-30
+C0863,Customer_863,Enterprise,South,Manufacturing,3200,Partner,Quarterly,Active,2021-08-13
+C0864,Customer_864,Mid-Market,South,Finance,145,Online,Yearly,Active,2020-10-21
+C0865,Customer_865,Mid-Market,West,Tech,1162,Online,Monthly,Inactive,2024-10-27
+C0866,Customer_866,SMB,West,Manufacturing,1522,Partner,Yearly,Inactive,2023-02-04
+C0867,Customer_867,SMB,West,Healthcare,1899,Online,Quarterly,Active,2023-03-29
+C0868,Customer_868,SMB,South,Manufacturing,2255,Partner,Yearly,Inactive,2020-03-09
+C0869,Customer_869,Enterprise,West,Healthcare,977,Direct Sales,Quarterly,Active,2020-10-17
+C0870,Customer_870,Mid-Market,East,Tech,4284,Online,Yearly,Active,2021-05-17
+C0871,Customer_871,SMB,North,Manufacturing,4798,Partner,Yearly,Active,2025-01-24
+C0872,Customer_872,SMB,North,Tech,3769,Direct Sales,Quarterly,Inactive,2022-05-12
+C0873,Customer_873,SMB,East,Healthcare,1422,Online,Yearly,Inactive,2024-01-28
+C0874,Customer_874,Mid-Market,East,Retail,3926,Direct Sales,Monthly,Active,2023-09-06
+C0875,Customer_875,SMB,North,Healthcare,4021,Online,Monthly,Active,2024-10-09
+C0876,Customer_876,SMB,East,Finance,2351,Partner,Quarterly,Active,2024-02-27
+C0877,Customer_877,Enterprise,South,Manufacturing,1288,Direct Sales,Quarterly,Inactive,2024-07-12
+C0878,Customer_878,Enterprise,East,Finance,4022,Online,Yearly,Active,2021-12-03
+C0879,Customer_879,Enterprise,South,Manufacturing,1312,Partner,Quarterly,Inactive,2021-05-02
+C0880,Customer_880,Mid-Market,West,Finance,1777,Direct Sales,Yearly,Inactive,2020-04-21
+C0881,Customer_881,Mid-Market,East,Retail,480,Online,Quarterly,Inactive,2022-09-02
+C0882,Customer_882,SMB,West,Manufacturing,1964,Partner,Yearly,Inactive,2022-08-29
+C0883,Customer_883,SMB,South,Manufacturing,3611,Online,Quarterly,Inactive,2022-02-21
+C0884,Customer_884,Mid-Market,East,Manufacturing,386,Online,Yearly,Inactive,2025-05-12
+C0885,Customer_885,SMB,East,Healthcare,2264,Partner,Monthly,Inactive,2023-09-02
+C0886,Customer_886,Mid-Market,West,Tech,2030,Direct Sales,Yearly,Active,2022-11-30
+C0887,Customer_887,SMB,South,Healthcare,4536,Online,Yearly,Active,2024-08-30
+C0888,Customer_888,Enterprise,North,Tech,850,Direct Sales,Monthly,Inactive,2021-12-20
+C0889,Customer_889,Enterprise,East,Healthcare,1631,Online,Monthly,Active,2020-04-26
+C0890,Customer_890,Mid-Market,South,Manufacturing,1047,Direct Sales,Monthly,Active,2024-10-19
+C0891,Customer_891,Mid-Market,South,Tech,4687,Online,Monthly,Active,2021-06-02
+C0892,Customer_892,SMB,West,Retail,3764,Partner,Quarterly,Inactive,2021-06-11
+C0893,Customer_893,Enterprise,North,Healthcare,561,Partner,Quarterly,Inactive,2020-05-03
+C0894,Customer_894,SMB,East,Finance,3659,Online,Quarterly,Active,2023-06-03
+C0895,Customer_895,SMB,South,Tech,938,Online,Yearly,Inactive,2021-03-23
+C0896,Customer_896,Mid-Market,North,Tech,2171,Online,Monthly,Active,2020-05-24
+C0897,Customer_897,Mid-Market,East,Tech,203,Partner,Monthly,Active,2025-03-25
+C0898,Customer_898,Enterprise,West,Healthcare,1291,Direct Sales,Quarterly,Inactive,2023-03-22
+C0899,Customer_899,Enterprise,West,Tech,3622,Partner,Yearly,Active,2023-01-11
+C0900,Customer_900,Enterprise,North,Tech,3999,Online,Yearly,Inactive,2021-11-13
+C0901,Customer_901,Mid-Market,East,Tech,502,Direct Sales,Yearly,Active,2022-01-18
+C0902,Customer_902,Mid-Market,East,Retail,3815,Partner,Yearly,Active,2020-12-27
+C0903,Customer_903,Mid-Market,North,Tech,1614,Partner,Yearly,Inactive,2025-01-09
+C0904,Customer_904,Enterprise,East,Tech,745,Direct Sales,Quarterly,Active,2020-10-13
+C0905,Customer_905,Enterprise,South,Retail,4907,Online,Quarterly,Inactive,2020-05-09
+C0906,Customer_906,Mid-Market,East,Tech,4424,Partner,Monthly,Active,2021-11-25
+C0907,Customer_907,Enterprise,East,Retail,3371,Online,Monthly,Inactive,2025-04-09
+C0908,Customer_908,Mid-Market,South,Manufacturing,1958,Online,Monthly,Active,2022-09-28
+C0909,Customer_909,Mid-Market,North,Tech,425,Online,Yearly,Active,2020-01-30
+C0910,Customer_910,Enterprise,North,Healthcare,847,Partner,Yearly,Active,2024-09-06
+C0911,Customer_911,Mid-Market,North,Retail,985,Partner,Yearly,Active,2020-05-09
+C0912,Customer_912,Enterprise,West,Healthcare,3343,Partner,Monthly,Active,2021-10-20
+C0913,Customer_913,Enterprise,North,Manufacturing,1470,Partner,Monthly,Active,2021-07-14
+C0914,Customer_914,Enterprise,West,Finance,3080,Direct Sales,Monthly,Inactive,2021-05-13
+C0915,Customer_915,Mid-Market,North,Finance,868,Direct Sales,Yearly,Inactive,2024-05-11
+C0916,Customer_916,Enterprise,North,Tech,711,Online,Monthly,Active,2025-03-11
+C0917,Customer_917,Enterprise,East,Tech,3949,Direct Sales,Monthly,Active,2020-10-20
+C0918,Customer_918,Mid-Market,East,Manufacturing,3739,Partner,Monthly,Active,2023-06-04
+C0919,Customer_919,Mid-Market,North,Manufacturing,1524,Direct Sales,Quarterly,Active,2023-07-08
+C0920,Customer_920,SMB,East,Tech,87,Direct Sales,Monthly,Active,2020-08-28
+C0921,Customer_921,Mid-Market,North,Manufacturing,3014,Direct Sales,Yearly,Active,2022-08-08
+C0922,Customer_922,Mid-Market,South,Healthcare,484,Online,Monthly,Active,2023-11-04
+C0923,Customer_923,SMB,West,Finance,1358,Direct Sales,Monthly,Active,2023-08-13
+C0924,Customer_924,SMB,East,Finance,3610,Partner,Quarterly,Inactive,2020-03-29
+C0925,Customer_925,Enterprise,North,Manufacturing,1490,Online,Monthly,Inactive,2022-11-20
+C0926,Customer_926,Enterprise,North,Finance,3693,Direct Sales,Yearly,Inactive,2022-05-08
+C0927,Customer_927,Enterprise,East,Finance,952,Partner,Monthly,Active,2021-04-30
+C0928,Customer_928,Mid-Market,West,Finance,3126,Online,Monthly,Inactive,2023-04-13
+C0929,Customer_929,SMB,North,Tech,1237,Online,Yearly,Inactive,2020-12-30
+C0930,Customer_930,SMB,East,Finance,3799,Direct Sales,Monthly,Inactive,2025-06-20
+C0931,Customer_931,SMB,South,Healthcare,1092,Online,Yearly,Active,2021-07-28
+C0932,Customer_932,Enterprise,North,Tech,3806,Partner,Monthly,Inactive,2021-03-26
+C0933,Customer_933,SMB,South,Manufacturing,1442,Direct Sales,Yearly,Active,2020-06-26
+C0934,Customer_934,SMB,West,Finance,4896,Partner,Quarterly,Inactive,2020-01-30
+C0935,Customer_935,Mid-Market,West,Finance,2080,Partner,Quarterly,Active,2024-12-31
+C0936,Customer_936,Mid-Market,South,Manufacturing,91,Partner,Monthly,Active,2022-08-21
+C0937,Customer_937,Mid-Market,North,Tech,4400,Partner,Quarterly,Active,2022-07-15
+C0938,Customer_938,SMB,South,Retail,4625,Online,Yearly,Inactive,2025-04-29
+C0939,Customer_939,Enterprise,South,Healthcare,2473,Online,Yearly,Active,2020-02-02
+C0940,Customer_940,SMB,East,Finance,3812,Direct Sales,Yearly,Active,2025-06-22
+C0941,Customer_941,SMB,West,Finance,3370,Online,Quarterly,Inactive,2023-12-12
+C0942,Customer_942,Mid-Market,North,Retail,3202,Direct Sales,Quarterly,Active,2021-08-30
+C0943,Customer_943,SMB,East,Manufacturing,4493,Direct Sales,Monthly,Active,2023-06-24
+C0944,Customer_944,SMB,North,Manufacturing,3031,Online,Monthly,Inactive,2022-01-18
+C0945,Customer_945,SMB,North,Healthcare,3051,Online,Yearly,Active,2023-02-22
+C0946,Customer_946,Mid-Market,South,Finance,2793,Online,Yearly,Active,2023-08-22
+C0947,Customer_947,SMB,South,Finance,2675,Partner,Quarterly,Inactive,2021-07-21
+C0948,Customer_948,Enterprise,North,Healthcare,2878,Partner,Quarterly,Active,2022-08-20
+C0949,Customer_949,Mid-Market,East,Tech,3065,Direct Sales,Yearly,Active,2021-01-20
+C0950,Customer_950,SMB,North,Retail,3250,Online,Quarterly,Active,2020-08-11
+C0951,Customer_951,Enterprise,East,Retail,1262,Partner,Monthly,Active,2022-12-02
+C0952,Customer_952,Mid-Market,North,Healthcare,3462,Direct Sales,Yearly,Active,2022-08-28
+C0953,Customer_953,SMB,West,Tech,225,Partner,Monthly,Active,2020-02-15
+C0954,Customer_954,Enterprise,East,Tech,4790,Partner,Yearly,Inactive,2022-09-22
+C0955,Customer_955,Mid-Market,West,Tech,2541,Direct Sales,Monthly,Inactive,2020-12-17
+C0956,Customer_956,SMB,South,Tech,3096,Partner,Monthly,Active,2021-12-24
+C0957,Customer_957,SMB,West,Finance,1367,Direct Sales,Yearly,Inactive,2021-01-08
+C0958,Customer_958,Enterprise,South,Finance,1998,Online,Monthly,Inactive,2023-03-22
+C0959,Customer_959,Enterprise,West,Healthcare,3078,Online,Monthly,Active,2023-09-25
+C0960,Customer_960,SMB,East,Finance,3104,Partner,Yearly,Active,2022-12-28
+C0961,Customer_961,SMB,North,Retail,3364,Partner,Monthly,Inactive,2025-03-15
+C0962,Customer_962,SMB,South,Retail,4524,Direct Sales,Quarterly,Inactive,2022-08-28
+C0963,Customer_963,SMB,South,Manufacturing,3671,Partner,Yearly,Active,2024-02-07
+C0964,Customer_964,SMB,North,Finance,4563,Online,Quarterly,Active,2022-04-02
+C0965,Customer_965,Mid-Market,South,Tech,2977,Online,Quarterly,Active,2023-05-30
+C0966,Customer_966,Mid-Market,South,Manufacturing,4362,Online,Quarterly,Active,2020-02-16
+C0967,Customer_967,Enterprise,West,Retail,4242,Partner,Monthly,Inactive,2021-10-12
+C0968,Customer_968,Mid-Market,North,Healthcare,3306,Online,Yearly,Inactive,2022-01-27
+C0969,Customer_969,SMB,East,Retail,2381,Partner,Quarterly,Inactive,2022-07-01
+C0970,Customer_970,Mid-Market,North,Finance,3689,Direct Sales,Quarterly,Inactive,2021-08-14
+C0971,Customer_971,Enterprise,West,Tech,1193,Direct Sales,Yearly,Active,2020-10-21
+C0972,Customer_972,Enterprise,East,Tech,4353,Partner,Monthly,Inactive,2020-06-30
+C0973,Customer_973,Enterprise,West,Healthcare,3445,Online,Yearly,Inactive,2023-12-25
+C0974,Customer_974,Mid-Market,South,Finance,1573,Partner,Quarterly,Inactive,2020-03-27
+C0975,Customer_975,SMB,East,Tech,4631,Direct Sales,Quarterly,Active,2020-02-24
+C0976,Customer_976,Enterprise,South,Healthcare,2508,Direct Sales,Yearly,Inactive,2020-09-11
+C0977,Customer_977,Mid-Market,East,Tech,1519,Partner,Yearly,Active,2020-02-28
+C0978,Customer_978,Enterprise,East,Tech,596,Direct Sales,Yearly,Inactive,2023-04-05
+C0979,Customer_979,SMB,West,Healthcare,3949,Direct Sales,Monthly,Inactive,2022-11-15
+C0980,Customer_980,Mid-Market,North,Healthcare,1384,Direct Sales,Monthly,Active,2021-10-16
+C0981,Customer_981,SMB,South,Healthcare,1387,Online,Quarterly,Inactive,2022-05-09
+C0982,Customer_982,Mid-Market,East,Retail,2424,Partner,Yearly,Active,2022-11-18
+C0983,Customer_983,Enterprise,South,Retail,4955,Online,Yearly,Inactive,2024-11-21
+C0984,Customer_984,SMB,East,Healthcare,3019,Online,Yearly,Inactive,2024-08-13
+C0985,Customer_985,Enterprise,North,Finance,4294,Partner,Quarterly,Inactive,2022-04-23
+C0986,Customer_986,SMB,South,Retail,1834,Online,Yearly,Active,2024-08-30
+C0987,Customer_987,Enterprise,North,Tech,3822,Online,Monthly,Active,2025-03-06
+C0988,Customer_988,Enterprise,West,Healthcare,2602,Direct Sales,Quarterly,Active,2024-07-31
+C0989,Customer_989,SMB,East,Finance,2545,Online,Yearly,Active,2021-03-31
+C0990,Customer_990,Enterprise,South,Finance,2568,Online,Monthly,Active,2020-06-09
+C0991,Customer_991,SMB,North,Retail,204,Partner,Quarterly,Active,2021-02-06
+C0992,Customer_992,Enterprise,North,Manufacturing,4909,Online,Quarterly,Active,2025-02-03
+C0993,Customer_993,SMB,North,Retail,2521,Direct Sales,Monthly,Active,2024-05-21
+C0994,Customer_994,Enterprise,South,Manufacturing,1688,Online,Yearly,Inactive,2020-02-29
+C0995,Customer_995,Enterprise,South,Healthcare,4799,Partner,Quarterly,Active,2024-10-17
+C0996,Customer_996,Mid-Market,South,Manufacturing,4721,Online,Monthly,Active,2022-12-19
+C0997,Customer_997,Enterprise,South,Healthcare,1457,Direct Sales,Monthly,Active,2025-03-07
+C0998,Customer_998,Enterprise,West,Healthcare,4878,Online,Quarterly,Active,2021-01-05
+C0999,Customer_999,SMB,West,Tech,1805,Direct Sales,Monthly,Inactive,2020-08-19
+C1000,Customer_1000,SMB,North,Tech,953,Direct Sales,Monthly,Inactive,2024-04-10
